@@ -1,2 +1,2 @@
 # Support-Apps-Script-Library
-Repo for our BetterCLoud Support's Google AppsScripts
+Repo for BetterCloud Support's Google AppsScripts
