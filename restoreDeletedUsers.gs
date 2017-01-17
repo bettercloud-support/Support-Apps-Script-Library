@@ -6,7 +6,7 @@ function myFunction() {
   //Logger.log(deletedUsers.users[0].id);
   for (var i = 0; i < deletedUsers.users.length; i++){
     var deletedDate = deletedUsers.users[i].deletionTime;
-    if (deletedDate > "2016-11-20T03:20:44.000Z")
+    if (deletedDate > "2016-11-20T03:20:44.000Z") //change date
     {
     var id = deletedUsers.users[i].id; //gets Google ID (required to restore user)
       var email = deletedUsers.users[i].primaryEmail;
