@@ -1,8 +1,8 @@
-***Delete groups***
+***Group Scripts***
 
 1) Please create a new Google Sheet
 
-2) Enter the group email addresses you’d like to delete in Column A
+2) Enter the group email addresses you’d like to (create/delete/modify) in Column A
 
 3) Go to Tools > Script Editor in the sheet
 
