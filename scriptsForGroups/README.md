@@ -1,4 +1,5 @@
 ***Delete groups***
+
 1) Please create a new Google Sheet
 
 2) Enter the group email addresses you’d like to delete in Column A
