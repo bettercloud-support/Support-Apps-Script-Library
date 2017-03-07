@@ -3,7 +3,7 @@ function deleteAllGroups() {
   var pageToken, page;
   do {
     page = AdminDirectory.Groups.list({
-      domain: 'gameofclouds.com',
+      domain: 'gameofclouds.com', //enter domain here
       maxResults: 100,
       pageToken: pageToken
     });
