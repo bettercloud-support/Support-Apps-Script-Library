@@ -1,5 +1,5 @@
 function createGroups(){
- var suffix = "joff";
+ var suffix = "joff"; //Enter group name
  var num = "10";
  for (var i = 0; i < num; i++) {
  var group = {
