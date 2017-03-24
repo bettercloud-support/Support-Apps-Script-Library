@@ -62,7 +62,7 @@ var ss = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet()
 var pageToken, page;
   do {
     page = AdminDirectory.Users.list({
-      domain: 'gameofclouds.com',
+      domain: 'gameofclouds.com', //enter domain here
       orderBy: 'givenName',
       maxResults: 100,
       pageToken: pageToken
