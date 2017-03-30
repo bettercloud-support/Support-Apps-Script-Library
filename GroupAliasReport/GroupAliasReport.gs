@@ -4,7 +4,7 @@ function myFunction() {
   //var sheet = ssNew.getSheets()[0];
   do {
     page = AdminDirectory.Groups.list({
-      domain: 'cloudypotter.com', //edit domain here
+      domain: 'cloudypotter.com',
       maxResults: 100,
       pageToken: pageToken
     });
@@ -23,3 +23,7 @@ function myFunction() {
       }
     } else {
       Logger.log('No groups found.');
+    }
+    pageToken = page.nextPageToken;
+  } while (pageToken);
+};
