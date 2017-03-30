@@ -1,8 +1,8 @@
-var logSheet = SpreadsheetApp.openById("1MYWMDyGg1MbItcT4yYrYwgi2e3HKIhd085vgWib6New").getSheetByName("Log")
+var logSheet = SpreadsheetApp.openById("1MYWMDyGg1MbItcT4yYrYwgi2e3HKIhd085vgWib6New").getSheetByName("Log") 
 
 function myFunction() {
   var deletedUsers = AdminDirectory.Users.list({"customer": "my_customer", "showDeleted": true});
-  var resource = {"orgUnitPath":"restored"};
+  var resource = {"orgUnitPath":"restored"}; //orgunit 
   //Logger.log(deletedUsers.users[0].id);
   for (var i = 0; i < deletedUsers.users.length; i++){
     var deletedDate = deletedUsers.users[i].deletionTime;
