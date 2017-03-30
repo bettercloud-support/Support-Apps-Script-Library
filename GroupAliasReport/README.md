@@ -1,14 +1,17 @@
 Instructions:
 
 1. Create a new spreadsheet
-2. Create a new sheet and leave it named Sheet 2. 
-3. List all domains in column A
-4. Go to Tools > Script editor
-5. Paste the apps script. In the 'domain' field, plase enter your domain.
-6. Go to Resources > Advanced Google Services. Enable the Admin Directory API
-7. Click "Google Developers Console" in the yellow box
-8. Search for Admin SDK and enable as well.
-9. Back in the Apps Script, press OK
-10. Press the play button
-11. Accept permissions
-12. Script will finish running the yellow message disappears.
+2. Go to Tools > Script editor
+3. Paste the apps script. In the 'domain' field, plase enter your domain.
+4. Go to Resources > Advanced Google Services. Enable the Admin Directory API
+5. Click "Google Developers Console" in the yellow box
+6. Search for Admin SDK and enable as well.
+7. Back in the Apps Script, press OK
+8. Press the play button
+9. Accept permissions
+10. Script will finish running the yellow message disappears.
+11. Go to View > Logs to view all groups and thier associated aliases. Aliases are in brackets. http://screenshots.bettercloud.com/2M2c0u031P2I
+
+
+
+
