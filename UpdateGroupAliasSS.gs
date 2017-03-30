@@ -11,7 +11,7 @@ function updateGroupAlias() {
     //Logger.log(userName);
     //var string = userName.toString();
     //Logger.log(string);
-    AdminDirectory.Groups.Aliases.insert({"alias": userName + "@c.gameofclouds.com"}, userName + "@b.gameofclouds.com");
+    AdminDirectory.Groups.Aliases.insert({"alias": userName + "@c.gameofclouds.com"}, userName + "@b.gameofclouds.com"); //enter subdomains here 
   }
     
 };
