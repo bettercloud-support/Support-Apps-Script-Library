@@ -4,7 +4,7 @@ function myFunction() {
   //var sheet = ssNew.getSheets()[0];
   do {
     page = AdminDirectory.Groups.list({
-      domain: 'cloudypotter.com',
+      domain: 'cloudypotter.com', //add domain here
       maxResults: 100,
       pageToken: pageToken
     });
