@@ -3,7 +3,7 @@ function createGroups(){
  var num = "10"; //Enter number of groups you wish to create
  for (var i = 0; i < num; i++) {
  var group = {
-   email: suffix + i +'@gameofclouds.com'
+   email: suffix + i +'@gameofclouds.com' //change @gameofclouds.com to your domain name
    };
    AdminDirectory.Groups.insert(group);
    Logger.log(group);  
