@@ -2,7 +2,7 @@
 
 Please create a new Google Sheet
 
-Enter the group email addresses you’d like to create in "suffix" and the quantity in "num"
+Enter the group email addresses you’d like to create in "suffix" and the quantity in "num", edit the domain to your chosen domain.
 
 Go to Tools > Script Editor in the sheet
 
