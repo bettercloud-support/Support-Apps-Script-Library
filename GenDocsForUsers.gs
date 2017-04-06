@@ -1,6 +1,6 @@
 function generateReportForDocsCount() {
   var date = "2016-11-06";
-  var maxRows = SpreadsheetApp.openById("1hVvTo8VtnQAADSTejx7eQNe8KOWC9c9AmUESs6sF_dU").getSheetByName("Sheet1").getLastRow();
+  var maxRows = SpreadsheetApp.openById("1hVvTo8VtnQAADSTejx7eQNe8KOWC9c9AmUESs6sF_dU").getSheetByName("Sheet1").getLastRow(); //change docIDs to docID of the spreadsheet
   var users = SpreadsheetApp.openById("1hVvTo8VtnQAADSTejx7eQNe8KOWC9c9AmUESs6sF_dU").getSheetByName("Sheet1").getRange("A1:A"+maxRows).getValues();
   
   
@@ -18,7 +18,7 @@ function generateReportForDocsCount() {
     
     try {
       var numDocs = report.usageReports[0].parameters[0].intValue;
-      SpreadsheetApp.openById("1TmGdzoq7t9TWGEbycWE02AqNa5FaWLG1C51-uS_WlJU").getSheetByName("Sheet1").getRange("B"+(k+1)).setValue(numDocs)}
+      SpreadsheetApp.openById("1TmGdzoq7t9TWGEbycWE02AqNa5FaWLG1C51-uS_WlJU").getSheetByName("Sheet1").getRange("B"+(k+1)).setValue(numDocs)} //change docIDs to docID of the spreadsheet
   catch(e){
     SpreadsheetApp.openById("1TmGdzoq7t9TWGEbycWE02AqNa5FaWLG1C51-uS_WlJU").getSheetByName("Sheet1").getRange("B"+(k+1)).setValue("0")}
   
