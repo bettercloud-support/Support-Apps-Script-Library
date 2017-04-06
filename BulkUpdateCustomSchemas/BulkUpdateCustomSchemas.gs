@@ -1,3 +1,5 @@
+//custom fields may not pertain to your domain, feel free to clone and edit
+
 function onOpen() {
   var ui = SpreadsheetApp.getUi();
   ui.createMenu('Run Update')
