@@ -14,7 +14,7 @@ function changeGroupEmail() { //changes email of group on a specific domain that
         if (string.indexOf("corp") > -1){
         var index = string.indexOf("@"); 
         var userName = string.substring(0,string.lastIndexOf("@")); //gets user name of group before @ symbol
-        AdminDirectory.Groups.update({"email": userName + "@b.gameofclouds.com"}, userName + "@c.gameofclouds.com");
+        AdminDirectory.Groups.update({"email": userName + "@b.gameofclouds.com"}, userName + "@gameofclouds.com");
         Logger.log(userName);
         }
         
@@ -25,4 +25,3 @@ function changeGroupEmail() { //changes email of group on a specific domain that
     pageToken = page.nextPageToken;
   } while (pageToken);
 }
-
