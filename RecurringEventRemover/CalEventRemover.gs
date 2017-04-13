@@ -1,7 +1,9 @@
+//how to get eventID: https://www.google.com/calendar/render?gsessionid=OK&eventdeb=1
+
 function myFunction() {
   var maxRows = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getLastRow();
   var users = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("A2:A"+maxRows).getValues();
-  var eventId = "mqvehcb0i8dphr93t208fa6i0o";
+  var eventId = "mqvehcb0i8dphr93t208fa6i0o"; //enter eventID here
   
   for (var i = 0; i < users.length; i++){
   
