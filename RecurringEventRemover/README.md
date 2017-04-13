@@ -1,3 +1,4 @@
+0) First, to get the eventID for the specified event, follow think link and then click on the event > drop down > more actions: https://www.google.com/calendar/render?gsessionid=OK&eventdeb=1
 1) Open a new google sheet and make a "userEmail" header in cell A1, that's where you are going input the emails of people being removed from the event. (A2 and below)
 2) Click on tools > script editor
 3) In the script editor please copy and paste the code below. 
