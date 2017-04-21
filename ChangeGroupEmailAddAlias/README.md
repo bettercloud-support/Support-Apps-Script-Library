@@ -3,3 +3,5 @@
 3) In the script editor, paste the script. 
 4) Go to Resources > Advanced Google Sercices and enable the Admin Directory API. 
 5) Enable the Admin SDK in the API console as well. Enable the Admin SDK in the API console as well.
+6) Add the group emails you wish to modify in column A 
+7) Click the 'Play' button to run the script
