@@ -1,5 +1,5 @@
 function writeResources() {
-  var cus = 'my_customer';
+  var cus = 'my_customer'; //this represents your domain
   var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
   var dataset = spreadsheet.getActiveSheet().getDataRange().getValues();
   if (dataset.length > 1) {
