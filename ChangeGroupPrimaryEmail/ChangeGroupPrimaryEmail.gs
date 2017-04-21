@@ -1,8 +1,8 @@
 function changeGroupPrimaryEmail() {
     
   var maxRows = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getLastRow();
-  var oldGroup = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("A1:A"+maxRows).getValues();
-  var newGroup = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("B1:B"+maxRows).getValues();
+  var oldGroup = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("A1:A"+maxRows).getValues(); //put the email of the group you wish to change in column A
+  var newGroup = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("B1:B"+maxRows).getValues(); //put the new group email in column B
   
   
   for (var i=0;i<oldGroup.length;i++)
