@@ -1,3 +1,5 @@
+DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud standard support program or service. The sample scripts are provided AS IS without warranty of any kind. Bettercloud disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you.
+
 1) Navigate to drive.google.com and open up a new spreadsheet
 2) Tools > Script Library
 3) Copy the Apps Script attached and paste it in the spreadsheet
