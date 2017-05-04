@@ -1,6 +1,6 @@
 function myFunction() {
 var maxRows = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getLastRow();
-var resources = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("A1:A"+maxRows).getValues();
+var resources = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("A1:A"+maxRows).getValues(); //paste resourceID in column A
 var eventName = [];
 var startDate = [];
 var resultArray = [];
@@ -21,8 +21,8 @@ var result2 = result.slice(-1)[0]
 
 
 Logger.log(result2);
-SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("B"+(k+1)).setValue(result2[0]);
-SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("C"+(k+1)).setValue(result2[1]);
+SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("B"+(k+1)).setValue(result2[0]); //Name of event sent in column B
+SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("C"+(k+1)).setValue(result2[1]); //Time of event sent in column C
 
 //Logger.log("Result: "+ result2)
 }
