@@ -4,7 +4,7 @@ DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud
 
 1) Please create a new Google Sheet
 
-2) Enter the domain you would like to delete ALL Google groups from (Only deletes 1 domain at a time)
+2) Enter the domain you would like to delete ALL Google groups from (Only deletes from 1 domain at a time)
 
 3) Go to Tools > Script Editor in the sheet
 
