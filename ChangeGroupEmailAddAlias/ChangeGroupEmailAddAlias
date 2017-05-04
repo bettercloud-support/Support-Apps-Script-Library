@@ -1,13 +1,22 @@
 function changePrimaryAndAddAlias() {
     
   var maxRows = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getLastRow();
-  var groups = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("A1:A"+maxRows).getValues(); //Add group emails to column A of the spreadsheet
+  var groups = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("A1:A"+maxRows).getValues();
   
   
   for (var i=0;i<groups.length;i++)
   {
     var userName = groups[i];
-    AdminDirectory.Groups.update({"email": userName + "@c.gameofclouds.com"}, userName + "@b.gameofclouds.com"); //This is taking a group that is on @c.gameofclouds.com and changing it to @b.gameofclouds.com.
-    //Please edit the domain names to your own subdomains.
+    
+try {   
+  
+  //This is taking a group on @dundermifflin.net and changing it to sub.dundermifflin.net
+  //Please all instances of dundermifflin.net to your own domains.
+ AdminDirectory.Groups.update({"email": userName + "@sub.dundermifflin.net"}, userName + "@dundermifflin.net"); 
+SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("B"+(i+1)).setValue("SUCCESS")
+}
+catch(e){
+SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("B"+(i+1)).setValue("PASS -- Group does not exist");
+}
   }
   }
