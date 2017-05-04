@@ -24,5 +24,5 @@ DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud
 
 11) Accept permissions
 
-12) Resource deleted should show in the log and spreadsheet
+12) Groups deleted should show in the log and spreadsheet
 
