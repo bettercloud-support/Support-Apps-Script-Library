@@ -10,7 +10,7 @@ function onOpen() {
   .addToUi();
 }
 
-function retrieveSchemaValues() {
+function retrieveSchemaValues() { //a GET for all your existing custom schemas
   
   var ss = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet()
   var maxRows = ss.getLastRow();
@@ -22,7 +22,7 @@ function retrieveSchemaValues() {
     
     try {
       var user = AdminDirectory.Users.get(users[i], {projection:"full"});
-      var employeeNumber = user.customSchemas.employmentData.EmployeeNumber;
+      var employeeNumber = user.customSchemas.employmentData.EmployeeNumber; //EmployeeNumber is an example custom schemas this needs to be changed to your own
     }
     catch(e){
       var  employeeNumber = "";
@@ -34,7 +34,7 @@ function retrieveSchemaValues() {
     
     try {
       var user = AdminDirectory.Users.get(users[i], {projection:"full"});
-      var employeeCompany = user.customSchemas.employmentData.EmployeeCompany;
+      var employeeCompany = user.customSchemas.employmentData.EmployeeCompany; //example custom schema, needs to be changed to your own in all instances
     }
     catch(e){
       var  employeeCompany = "";
@@ -46,7 +46,7 @@ function retrieveSchemaValues() {
     
     try {
       var user = AdminDirectory.Users.get(users[i], {projection:"full"});
-      var city = user.customSchemas.employmentLocation.City;
+      var city = user.customSchemas.employmentLocation.City; //example custom schema, needs to be changed to your own in all instances
     }
     catch(e){
       var city = "";
@@ -86,7 +86,7 @@ var pageToken, page;
 }
 
 
-function updateSchemaValues(){
+function updateSchemaValues(){ //Updates your custom schemas via spreadsheet
 
 var ss = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet()
 var maxRows = ss.getLastRow();
