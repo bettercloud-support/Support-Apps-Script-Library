@@ -2,6 +2,8 @@
 
 DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud standard support program or service. The sample scripts are provided AS IS without warranty of any kind. Bettercloud disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose.
 
+SUMMARY: This script adds a group owner to a group via spreadsheet, the group owner and group are specified by their respective email addresses.
+
 1) Please create a new Google Sheet
 
 2) Enter the group email addresses you’d like to (create/delete/modify) in Column A
