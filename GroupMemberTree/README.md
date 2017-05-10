@@ -2,6 +2,8 @@ DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud
 
 Group Member Tree report
 
+SUMMARY: This script will show nested groups of a nested group using the existing All Groups and their Members Report
+
 1) Run an 'All Groups and their Members' report
 2) Use a filter to show only the Groups in the Member Type column: http://screencast.com/t/fQ6rxeqDRGtH
 3) Delete all of the columns besides 'Group Email' and 'Member Email'
