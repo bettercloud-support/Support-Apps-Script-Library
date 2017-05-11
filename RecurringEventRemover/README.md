@@ -1,6 +1,7 @@
 DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud standard support program or service. The sample scripts are provided AS IS without warranty of any kind. Bettercloud disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you.
 
-0) First, to get the eventID for the specified event, follow this link and then click on the event > drop down > more actions: https://www.google.com/calendar/render?gsessionid=OK&eventdeb=1
+0) First, to get the eventID for the specified event, follow the google link and then click on the Event > More actions > Troubleshooting Info  https://www.google.com/calendar/render?gsessionid=OK&eventdeb=1
+Screenshot: http://screenshots.bettercloud.com/1j1Z2v0n2o2z
 1) Open a new google sheet and make a "userEmail" header in cell A1, that's where you are going input the emails of people being removed from the event. (A2 and below)
 2) Click on tools > script editor
 3) In the script editor please copy and paste the code below. 
