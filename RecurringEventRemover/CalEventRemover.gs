@@ -1,4 +1,5 @@
-//how to get eventID: https://www.google.com/calendar/render?gsessionid=OK&eventdeb=1
+//To get the eventID, follow this link: https://www.google.com/calendar/render?gsessionid=OK&eventdeb=1
+//You'll need to enter the part of the eventID before the underscore(e.g: 35rdwer3524rqwe13_)
 
 function myFunction() {
   var maxRows = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getLastRow();
@@ -7,7 +8,7 @@ function myFunction() {
   
   for (var i = 0; i < users.length; i++){
   
-  try{
+  try {
   Calendar.Events.remove(users[i], eventId);
   SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("B"+(i+2)).setValue("EVENT REMOVED FROM USER'S CALENDAR")
   }
