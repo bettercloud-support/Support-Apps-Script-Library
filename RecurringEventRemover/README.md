@@ -7,4 +7,4 @@ DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud
 4) Using the eventID you got earlier, input only the eventID that is before the underscore: https://cl.ly/1H3m1G020C0e
 5) Next, click on resources > Advanced google services and enable both the Admin Directory API and the Calendar API. (Enable both of those in the Google API console as well, via that link) 
 6) Next, input your user emails into the spreadsheet you created earlier in cell A2 and below.
-7) Once that's finished, please save and run the script. It should show 'EVENT REMOVED..' next to the user's email if it was successful.
+7) Once that's finished, please save and run the script. It should show 'EVENT REMOVED..' next to the user's email if it was successful. http://screenshots.bettercloud.com/2r3k2N080K2n
