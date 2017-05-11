@@ -3,7 +3,7 @@
 function myFunction() {
   var maxRows = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getLastRow();
   var users = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("A2:A"+maxRows).getValues();
-  var eventId = "mqvehcb0i8dphr93t208fa6i0o"; //enter eventIDprior to the underscore here
+  var eventId = "ENTER_YOUR_EVENTID_HERE"; //enter eventIDprior to the underscore here
   
   for (var i = 0; i < users.length; i++){
   
