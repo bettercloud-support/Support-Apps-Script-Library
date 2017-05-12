@@ -1,5 +1,7 @@
 DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud standard support program or service. The sample scripts are provided AS IS without warranty of any kind. Bettercloud disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you.
 
+SUMMARY: This script will return a report of all users with doc/mail quota over 75%
+
 1) Create a new spreadsheet in Drive
 2) Go to Tools > Script editor
 3) Paste the script below
