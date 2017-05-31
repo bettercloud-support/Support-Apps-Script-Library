@@ -10,5 +10,5 @@ Summary: Takes a group name and adds an alias to it under a different specified 
 5) Enable the Admin SDK in the API console as well. Enable the Admin SDK in the API console as well. 
 6) Change the domain, desired alias subdomain all to your own domains.
 7) Add the group name in column A that you wish to add the alias to.
-8) Run the scrip with the Play button. column C will populate with the new alias if successful. http://screenshots.bettercloud.com/3y2N3C3w0R0a
+8) Run the script with the Play button. column C will populate with the new alias if successful. http://screenshots.bettercloud.com/3y2N3C3w0R0a
 
