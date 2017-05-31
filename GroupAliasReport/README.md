@@ -9,7 +9,7 @@ Instructions:
 3. Paste the apps script. In the 'domain' field, plase enter your domain.
 4. Go to Resources > Advanced Google Services. Enable the Admin Directory API
 5. Click "Google Developers Console" in the yellow box
-6. Search for Admin SDK and enable as well.
+6. Search for Admin SDK and enable as well. http://screenshots.bettercloud.com/0r123C1z1608
 7. Back in the Apps Script, press OK
 8. Press the play button
 9. Accept permissions
