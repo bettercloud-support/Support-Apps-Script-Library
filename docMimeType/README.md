@@ -9,3 +9,4 @@
 9) Press the Play button: http://screenshots.bettercloud.com/3g2M380Y450p
 10) Accept permissions
 11) Once this message disappears, then the script will be finished: http://screenshots.bettercloud.com/1x3z1o2Z0P2r
+12) Results: http://screenshots.bettercloud.com/1E1g2O0v2v0p
