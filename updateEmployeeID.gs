@@ -20,10 +20,7 @@ function myFunction() {
     }
         
       ]
-    }
-    
-   
-  
+    }  
    
     try {
   
