@@ -6,10 +6,10 @@ The entire risk arising out of the use or performance of the sample scripts and 
 
 SUMMARY: This script bulk updates an EmployeeID.
 
-1) Open a new spreadsheet in Drive
-2) Add the user emails in cell A2 and below. Add the EmployeeID in cell B2 and below
-3) Go to tools > script editor
-4) Go to Resources > Advanced Google services and enable the Admin Directory API
-5) Enable the Admin SDK from the API Console as well
+1) Open a new Google sheetsheet in Drive
+2) Add the user emails in cell A2 and below. Add the EmployeeID in cell B2 and below.
+3) Go to Tools > Script editor in the sheet.
+4) Go to Resources > Advanced Google services in the script editor and enable the Admin Directory API
+5) Enable the Admin SDK from the API Console as well.
 6) Run the script, column C should populate with success/failure http://screenshots.bettercloud.com/3r440r2R0z2B
 
