@@ -1,5 +1,7 @@
 DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud standard support program or service. The sample scripts are provided AS IS without warranty of any kind. Bettercloud disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you.
 
+SUMMARY: This script retrieves all VFE licenses for a domain
+
 1) Create a new spreadsheet
 2) Name Sheet 1 "Google Apps License" (no quotes)
 3) Name Sheet 2 "Vault Former Employee License" (no quotes)
