@@ -1,3 +1,7 @@
+DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud standard support program or service. The sample scripts are provided AS IS without warranty of any kind. Bettercloud disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you.
+
+SUMMARY: This script populates a column with the 'mimetype' of a doc: https://developers.google.com/drive/v3/web/mime-types
+
 1) In the spreadsheet that you exported from Drive Audit, add a new column all the way to the right (Column V).
 2) On the menu bar, select Tools > Script Editor
 3) Copy and paste the script below
