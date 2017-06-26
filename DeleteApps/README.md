@@ -2,7 +2,7 @@
 
 DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud standard support program or service. The sample scripts are provided AS IS without warranty of any kind. Bettercloud disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you.
 
-SUMMARY: This script revokes access to third party apps based, based on the email address given in the spreadsheet.
+SUMMARY: This script revokes access to third party apps based on the email address given in the spreadsheet.
 
 1) Please create a new Google Sheet
 
