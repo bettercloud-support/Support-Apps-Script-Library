@@ -1,7 +1,7 @@
 function listNext10Events() {
   var now = new Date();
-  var maxRows = SpreadsheetApp.openById("1qVVeatPCtBL2QBymwTAXIHXeLd40gykE1Nyxo1Qtq4A").getSheetByName("Sheet1").getLastRow();
-  var id = SpreadsheetApp.getActiveSheet().getRange("A1:A"+ maxRows).getValues(); //gets calendar IDs from column A
+  var maxRows = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getLastRow();
+  var id = SpreadsheetApp.getActiveSheet().getRange("A1:A"+ maxRows).getValues();
  
   var h=0;
   while ( h < id.length)
@@ -12,11 +12,15 @@ function listNext10Events() {
     for (var i = 0; i < events.items.length; i++) {
       var event = events.items[i];
       var creator = events.items[i].creator.email;
-       if (creator == "test.sync@cloudypotter.com") //please change all instances of cloudypotter.com to your own domain
+       if (creator == "albert@dundermifflin.net") //add the email of the event creator here 
       {
         Logger.log("Creator: " + creator);
        Logger.log("Event name: " + event.summary);
         Logger.log("Resource name: " + events.summary);
+        
+        SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("B"+(i+1)).setValue("Creator: " + creator);
+        SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("C"+(i+1)).setValue("Event name: " + event.summary);
+        SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("D"+(i+1)).setValue("Resource name: " + events.summary);
         h++;   
       }
       else
