@@ -6,9 +6,7 @@ Summary: This script shows calendar events for the calendar IDs listed in column
 2) Go to Tools > Script Editor
 3) Paste the appscript.
 4) Go to Resources > Advanced Google Services and enable the Calendar API. Enable from the API console as well. http://screenshots.bettercloud.com/302j2s3U3v07
-
-API Console: http://screenshots.bettercloud.com/0S2U1t3W1823
-
+4.5) API Console: http://screenshots.bettercloud.com/0S2U1t3W1823
 5) In the spreadsheet, enter the calendar resources you wish to examine in column A
 6) In the script, enter the creator of the events' email in the 'creator' string
 7) Run the script, go to View > Logs to see the events when the script is finished
