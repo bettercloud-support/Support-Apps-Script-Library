@@ -5,7 +5,7 @@ function addGroupOwners() {
   var groups = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet1").getRange("A1:A"+ maxRows).getValues(); //gets groups from spreadsheet
   var owner = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet1").getRange("B1:B"+ maxRows).getValues(); //gets users to add as owners from spreadsheet
   var role = "OWNER"; //sets role to owner
-  var ss = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet2");
+  var ss = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet1");
 
   for (var i = 0; i < groups.length; i++)
   {
