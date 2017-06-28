@@ -33,19 +33,21 @@ function addGroupOwners() {
       
     }
     
-    ss.getRange("A1").setValue(groups[i]);
-      ss.getRange("B1").setValue(owner[i]);
+    ss.getRange("C1").setValue("In the group: "+groups[i]);
+      ss.getRange("D1").setValue(owner[i]+" has been added as an owner");
       ss.insertRowBefore(1);
     
     if (count == memberList.members.length){ // if the count equals the length of the member list, then we looked through all members and did not find a math so we will add them as an owner
      AdminDirectory.Members.insert({"email": owner[i], "type": "USER", "role": role}, groups[i]);
+      
     }
       else { //if the count does not equal the length of the member list, then we looked through all members and found a match so we will upgrade them to an owner
-        AdminDirectory.Members.update({"email": owner[i], "type": "USER", "role": role}, groups[i], owner[i])
+        AdminDirectory.Members.update({"email": owner[i], "type": "USER", "role": role}, groups[i], owner[i]);
       }
 
     }
   
     count = 0;
+}
 
-  }
+
