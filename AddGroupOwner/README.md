@@ -22,7 +22,7 @@ SUMMARY: This script adds a group owner to a group via spreadsheet, the group ow
 
 9) Back in the Apps Script press OK
 
-10) Then, press the play button
+10) Then, press the play button http://screenshots.bettercloud.com/041K1x2r0e1f
 
 11) Accept permissions
 
