@@ -8,4 +8,4 @@ SUMMARY: This script will add a group alias to a group that is specified in a sp
 4) Remove any existing code and add the code here: http://screenshots.bettercloud.com/1F2d1U0z041S
 5) Go to Resources > Advanced Google Services and then enabled the Admin Directory API. Enable the Admin SDK from the Google API console as well.http://screenshots.bettercloud.com/0r123C1z1608
 6) Save & Run the script
-7) column C should populate with SUCCESS in the group email row: http://screenshots.bettercloud.com/0l033W2p1P1s
+7) Column C should populate with SUCCESS in the group email row: http://screenshots.bettercloud.com/0l033W2p1P1s
