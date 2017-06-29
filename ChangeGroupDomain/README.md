@@ -10,3 +10,4 @@ SUMMARY: This script takes a group email on one domain and changes it to a sub-d
 5) Enable the Admin SDK in the API console as well. http://screenshots.bettercloud.com/0r123C1z1608
 6) Add the group emails you wish to modify in column A 
 7) Click the 'Play' button to run the script
+8) Column B will update with SUCCESS or FAIL,  for each group.
