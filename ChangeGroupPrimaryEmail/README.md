@@ -13,4 +13,4 @@ SUMMARY:This script simples takes a group email in column A of a spreadsheet, an
 9) Search for Admin SDK and enable
 10) Back in the Apps script enter press OK in the modal
 11) Press the play button
-12) Column C will populate in the sheet with SUCCESS or FAILURE for the corresponding groups. http://screenshots.bettercloud.com/0M1j1w2M3q10
+12) Column C will populate in the sheet with SUCCESS or FAILED for the corresponding groups. http://screenshots.bettercloud.com/0M1j1w2M3q10
