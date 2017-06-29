@@ -6,7 +6,7 @@ SUMMARY: This script adds a group owner to a group via spreadsheet, the group ow
 
 1) Please create a new Google Sheet
 
-2) Enter the group email addresses you’d like to (create/delete/modify) in Column A
+2) Enter the group email addresses you’d like to like the owner to in Column A, and the user's email address in column B.
 
 3) Go to Tools > Script Editor in the sheet
 
