@@ -2,15 +2,15 @@ DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud
 
 SUMMARY: This script will delete a calendar event from every email entered in cell A2 and below. This is useful if there was a calendar event made by a deleted user, and active users are still invited to the event.
 
-1) First, to get the eventID for the specified event, follow the google link and then click on the Event > More actions > Troubleshooting Info  https://www.google.com/calendar/render?gsessionid=OK&eventdeb=1
+1) First, to get the eventID for the specified event, follow the Google link and then click on the Event > More actions > Troubleshooting Info  https://www.google.com/calendar/render?gsessionid=OK&eventdeb=1
 
 Screenshot: http://screenshots.bettercloud.com/1j1Z2v0n2o2z
 
-2) Open a new google sheet and make a "userEmail" header in cell A1, that's where you are going input the emails of people being removed from the event. (A2 and below)
+2) Open a new Google sheet and make a "userEmail" header in cell A1, that's where you are going input the emails of people being removed from the event. (A2 and below)
 3) Click on Tools > Script editor in the google sheet.
-4) In the script editor please copy and paste the code below. 
+4) In the Script Editor please copy and paste the code below. 
 5) Using the eventID you got earlier, input only the eventID that is before the underscore in the "ENTER_EVENTID_HERE": http://screenshots.bettercloud.com/2m1q1t2y422v
-6) Next, click on resources > Advanced google services and enable both the Admin Directory API and the Calendar API. (Enable both of those in the Google API console as well, via that link) http://screenshots.bettercloud.com/1S3d0u0n1Z3d
+6) Next, click on Resources > Advanced Google Services and enable both the Admin Directory API and the Calendar API. (Enable both of those in the Google API console as well, via the yellow link) http://screenshots.bettercloud.com/1S3d0u0n1Z3d
 7) Next, input your user emails into the spreadsheet you created earlier in cell A2 and below.
 8) Once that's finished, please save and run the script. It should show 'EVENT REMOVED..' next to the user's email if it was successful. http://screenshots.bettercloud.com/2r3k2N080K2n
 
