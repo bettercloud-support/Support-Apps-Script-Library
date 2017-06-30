@@ -1,9 +1,9 @@
-DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud standard support program or service. The sample scripts are provided AS IS without warranty of any kind. Bettercloud disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you.
+DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud standard support program or service. The sample scripts are provided AS IS without warranty of any kind. BetterCloud disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you.
 
 SUMMARY: This script returns the number of google docs that the user owns.
-1) Create a new spreadsheet in Google Drive
-2) Go to Tools > Script Editor 
-3) Paste the appscript
+1) Create a new spreadsheet in Google Drive.
+2) Go to Tools > Script Editor.
+3) Paste the Apps Script.
 4) Go to Resources > Advanced Google Services
 5) Enable the Admin Reports API and the Admin SDK in the API console
 6) Edit the minus 3 in "d.setDate(d.getDate() - 3)" to the date you wish to report on. Minus 3 is 3 days ago. Minus 4 is 4 days..
