@@ -11,8 +11,9 @@ SUMMARY: This script adds a group owner to a group via spreadsheet, the group ow
 5) Go to Resources > Advanced Google Services
 6) Enable the Admin Directory API
 7) Click "Google Developers Console" in the yellow box
-8) Search for Admin SDK and enable
+8) Search for Admin SDK and enable. http://screenshots.bettercloud.com/1H2m0o2y2Y0I
 9) Back in the Apps Script press OK
 10) Then, press the play button http://screenshots.bettercloud.com/041K1x2r0e1f
-11) Accept permissions
+11) Accept permissions.
 12) The script will finish running when this message disappears: http://screencast.com/t/IwyVBIsZG8
+13) Click on View > Logs to see the results of the script. http://screenshots.bettercloud.com/1y272A102241
