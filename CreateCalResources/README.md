@@ -4,7 +4,7 @@ SUMMARY: This script creates Google calendar resources via paramters in a Google
 
 1) Open a new Google sheet
 2) Click on Tools > Script Editor
-3) Paste the script
+3) Paste the script in the script editor.
 4) Click on Resources > Advanced Google Services
 5) Enable the Admin Directory API, and then enable the Admin SDK from the Google API console. http://screenshots.bettercloud.com/3E460x2g0h3a
 6) Back in the spreadsheet, enter the name of the resource, the resourceID and then the type of the resource in and below A2, B2 and C2.
