@@ -29,4 +29,4 @@ http://screenshots.bettercloud.com/2o1Q0T0H3o3q
 
 12) The script will finish running when this message disappears: http://screencast.com/t/IwyVBIsZG8
 
-13) Check the sheet for a SUCCESS of FAILURE in column C
+13) Check the sheet for a SUCCESS or FAILURE in column C
