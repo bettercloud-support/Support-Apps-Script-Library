@@ -7,7 +7,7 @@ SUMMARY: This script creates google groups based on the paramaters given in the 
 1) Please create a new Google Sheet
 2) Enter the group email addresses you’d like to create in "suffix" and the quantity in "num", edit the domain to your chosen domain.
 3) Go to Tools > Script Editor in the sheet
-4) Paste the Apps Script provided below4) 
+4) Paste the Apps Script provided below.
 5) Go to Resources > Advanced Google Services
 6) Enable the Admin Directory API
 7) Click "Google Developers Console" in the yellow box
