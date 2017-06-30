@@ -11,7 +11,7 @@ SUMMARY: This script creates google groups based on the paramaters given in the 
 5) Go to Resources > Advanced Google Services
 6) Enable the Admin Directory API
 7) Click "Google Developers Console" in the yellow box 
-8) Search for Admin SDK and enable
+8) Search for Admin SDK and enable. http://screenshots.bettercloud.com/1H2m0o2y2Y0I
 9) Back in the Apps Script, press OK
 10) Then, press the play button
 11) Accept permissions
