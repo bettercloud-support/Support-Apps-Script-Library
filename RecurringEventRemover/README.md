@@ -7,7 +7,7 @@ SUMMARY: This script will delete a calendar event from every email entered in ce
 Screenshot: http://screenshots.bettercloud.com/1j1Z2v0n2o2z
 
 2) Open a new google sheet and make a "userEmail" header in cell A1, that's where you are going input the emails of people being removed from the event. (A2 and below)
-3) Click on tools > script editor in the google sheet.
+3) Click on Tools > Script editor in the google sheet.
 4) In the script editor please copy and paste the code below. 
 5) Using the eventID you got earlier, input only the eventID that is before the underscore in the "ENTER_EVENTID_HERE": http://screenshots.bettercloud.com/2m1q1t2y422v
 6) Next, click on resources > Advanced google services and enable both the Admin Directory API and the Calendar API. (Enable both of those in the Google API console as well, via that link) http://screenshots.bettercloud.com/1S3d0u0n1Z3d
