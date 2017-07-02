@@ -13,6 +13,6 @@ https://developers.google.com/admin-sdk/reports/v1/reference/usage-ref-appendix-
 6) Edit the variable 'daysBack' to the date you wish to report on. If set to 3 the report will get data from 3 days ago, if 4, 4 days ago and etc. 
 Note that there is a delay imposed by google for the Reports API. https://support.google.com/a/answer/7061566?hl=en
 7) Run the script.
-8) The number of Google Docs for each user should be populated in column B. http://screenshots.bettercloud.com/1n0o1K3v3l0Z
+8) The number of Google Docs for each user should be populated in column B. http://screenshots.bettercloud.com/463U3Z1D0k3X
 
 NOTE: If you receive the 'Backend error' message upon running the script, this means that there is no Data available for this date. Please adjust the variable daysBack to as far back as necessary to retrieve data. http://screenshots.bettercloud.com/3o341m223C2R
