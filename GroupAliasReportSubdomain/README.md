@@ -10,7 +10,7 @@ SUMMARY: This script returns groups that have group aliases. This script can tak
 6) Go to Resources > Advanced Google Services
 7) Enable the Admin Directory API
 8) Click "Google Developers Console" in the yellow box
-9) Search for Admin SDK and enable
+9) Search for Admin SDK and enable. http://screenshots.bettercloud.com/1H2m0o2y2Y0I
 10) Back in Apps Script press OK
 11) Press the play button
 12) Accept permissions
