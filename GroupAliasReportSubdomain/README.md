@@ -6,8 +6,8 @@ SUMMARY: This script returns groups that have group aliases. This script can tak
 2) Create a new sheet and leave it named Sheet 2
 3) List all domains in column A (In Sheet 2): http://screenshots.bettercloud.com/442e0l1Y0T23
 4) Please go to Tools > Script editor
-5) Paste the apps script: http://screenshots.bettercloud.com/252n1u1w0v40
-6) Go toResources > Advanced Google Services
+5) Paste the Apps Script: http://screenshots.bettercloud.com/252n1u1w0v40
+6) Go to Resources > Advanced Google Services
 7) Enable the Admin Directory API
 8) Click "Google Developers Console" in the yellow box
 9) Search for Admin SDK and enable
