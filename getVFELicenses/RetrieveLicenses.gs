@@ -8,8 +8,9 @@ function onOpen() {
   .addToUi();
 }
 
-function listGALicenseAssignments() {
-  var customerId = 'cloudypotter.com';
+
+function listGALicenseAssignments() { //This function retrieves all G Suite Licenses on your DOmain.
+  var customerId = 'dundermifflin.net'; //change dundermifflin.net to your own domain.
   var productId = 'Google-Apps';
   var response = AdminLicenseManager.LicenseAssignments.listForProduct(productId,
       customerId);
@@ -21,21 +22,21 @@ function listGALicenseAssignments() {
     for (i = 0; i < assignments.length; i++) {
       var assignment = assignments[i];
       Logger.log('%s (%s)', assignment.userId, assignment.skuId);
-      var ss = spreadsheet.getSheetByName("Google Apps License");
+      var ss = spreadsheet.getActiveSheet();
       ss.getRange("A1").setValue(assignment.userId);
       ss.getRange("B1").setValue(assignment.skuId);
       ss.insertRowBefore(1);
     }
   } else {
     var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
-    var ss = spreadsheet.getSheetByName("Google Apps License");
-    ss.getRange("A1").setValue("No Google Apps licenses found");
+    var ss = SpreadsheetApp.getActiveSpreadsheet();
+    ss.getRange("A1").setValue("No G Suite licenses found");
     Logger.log('No license assignments found.');
   }
 }  
 
-function listVFELicenseAssignments() {
-  var customerId = 'cloudypotter.com';
+function listVFELicenseAssignments() { //this function retriveves all Google Vault licenses on your domain.
+  var customerId = 'dundermifflin.net'; // please change dundermifflin.net to your own domain.
   var productId = 'Google-Vault';
   var response = AdminLicenseManager.LicenseAssignments.listForProduct(productId,
       customerId);
@@ -46,14 +47,14 @@ function listVFELicenseAssignments() {
     for (i = 0; i < assignments.length; i++) {
       var assignment = assignments[i];
       Logger.log('%s (%s)', assignment.userId, assignment.skuId);
-      var ss = spreadsheet.getSheetByName("Vault Former Employee License");
+      var ss = SpreadsheetApp.getActiveSpreadsheet();
       ss.getRange("A1").setValue(assignment.userId);
       ss.getRange("B1").setValue(assignment.skuId);
       ss.insertRowBefore(1);
     }
   } else {
     var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
-    var ss = spreadsheet.getSheetByName("Vault Former Employee License");
+    var ss = SpreadsheetApp.getActiveSpreadsheet();
     ss.getRange("A1").setValue("No Vault licenses found");
     Logger.log('No license assignments found.');
   }
