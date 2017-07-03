@@ -2,10 +2,10 @@ DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud
 
 SUMMARY: Updates the costCenter field in G Suite using primary emails
 
-1) Open a new spreadsheet in Drive
-2) Add the user emails in cell A2 and below. Add the cost center in cell B2 and below
-3) Go to tools > script editor
-4) Go to Resources > Advanced Google services and enable the Admin Directory API
-5) Enable the Admin SDK from the API Console as well
-6) Run the script, column C should populate with success/failure
+1) Open a new Google Sheet in Drive
+2) Add the user emails in cell A2 and below. Add the Cost Center in cell B2 and below.
+3) In the Menu bar, go to Tools > Script Editor
+4) In the Script Editor, go to Resources > Advanced Google services and enable the Admin Directory API.
+5) Enable the Admin SDK from the API Console as well. 
+6) Run the script, Column C should populate with success/failure. http://screenshots.bettercloud.com/3H0Y0T470s0u
 
