@@ -2,7 +2,7 @@ DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud
 
 SUMMARY: This script retrieves all G Suite/VFE Licenses for a given domain. https://developers.google.com/admin-sdk/licensing/v1/how-tos/products
 
-1) Create a new spreadsheet
+1) Create a new Google Sheet in Drive.
 4) In the menu bar, go to Tools > Script editor
 5) Paste the Apps Script into the Script Editor
 6) Go to Resources > Advanced Google services
