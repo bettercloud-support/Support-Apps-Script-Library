@@ -1,6 +1,6 @@
 DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud standard support program or service. The sample scripts are provided AS IS without warranty of any kind. BetterCloud disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you.
 
-SUMMARY: This script generates a report of the Two Step Enrolled and Two Step Enforced value for all domain users. These values come form Google's Reports API. https://developers.google.com/admin-sdk/reports/v1/reference/usage-ref-appendix-a/users-accounts
+SUMMARY: This script generates a report of the Two Step Enrolled and Two Step Enforced value for all domain users. These values come from Google's Reports API. https://developers.google.com/admin-sdk/reports/v1/reference/usage-ref-appendix-a/users-accounts
 
 1) Navigate to drive.google.com and open up a new spreadsheet
 2) Go to Tools > Script Editor in the spreadsheet.
