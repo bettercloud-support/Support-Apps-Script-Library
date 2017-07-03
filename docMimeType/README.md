@@ -14,4 +14,4 @@ SUMMARY: This script populates a column with the 'mimetype' of a doc: https://de
 10) Press the Play button: http://screenshots.bettercloud.com/3g2M380Y450p
 11) Accept permissions
 12) Once this message disappears, then the script will be finished: http://screenshots.bettercloud.com/1x3z1o2Z0P2r
-13) Results: http://screenshots.bettercloud.com/1E1g2O0v2v0p
+13) Results: http://screenshots.bettercloud.com/2S3j01211j0z
