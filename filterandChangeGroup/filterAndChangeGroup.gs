@@ -2,7 +2,7 @@ function changeGroupEmail() { //changes email of group on a specific domain that
   var pageToken, page;
   do {
     page = AdminDirectory.Groups.list({
-      domain: 'gameofclouds.com', //domain that groups are on
+      domain: 'dundermifflin.net', //domain that groups are on
       maxResults: 100,
       pageToken: pageToken
     });
@@ -11,10 +11,11 @@ function changeGroupEmail() { //changes email of group on a specific domain that
       for (var i = 0; i < groups.length; i++) {
         var group = groups[i];
         var string = group.email.toString();
-        if (string.indexOf("corp") > -1){ //change corp to your desired string 
+        if (string.indexOf("distro0") > -1){  //gets user name of group before @ symbol. All groups that start with name distro0 will have their domain changed. Please change this to your own group names.
         var index = string.indexOf("@"); 
-        var userName = string.substring(0,string.lastIndexOf("@")); //gets user name of group before @ symbol
-        AdminDirectory.Groups.update({"email": userName + "@b.gameofclouds.com"}, userName + "@gameofclouds.com"); //change the gameofclouds domains to your desired subdomains
+        var userName = string.substring(0,string.lastIndexOf("@")); 
+        AdminDirectory.Groups.update({"email": userName + "@sub.dundermifflin.net"}, userName + "@dundermifflin.net"); //This script takes a group on dundermifflin.net and changes it to sub.dundermifflin.net
+         //Please change all instances of dundermifflin.net to your own domains.
         Logger.log(userName);
         }
         
