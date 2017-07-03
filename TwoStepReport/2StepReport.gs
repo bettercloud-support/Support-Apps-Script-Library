@@ -41,7 +41,7 @@ function generateUserUsageReport() {
   } while (pageToken);
 
   if (rows.length > 0) {
-    var spreadsheet = SpreadsheetApp.create('Google Apps User Usage Report');
+    var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
     var sheet = spreadsheet.getActiveSheet();
 
     // Append the headers.
