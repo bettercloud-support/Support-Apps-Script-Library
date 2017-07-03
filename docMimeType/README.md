@@ -4,7 +4,7 @@ SUMMARY: This script populates a column with the 'mimetype' of a doc: https://de
 
 1) First, please go into BetterCloud to get the Drive Audit Export. In BetterCloud go to Google Apps > Drive > Audit and then hit 'Export to a spreadsheet' once you've filter for your desired documents. http://screenshots.bettercloud.com/422B3V0K1U3x
 2) In the spreadsheet that you exported from Drive Audit, add a new column all the way to the right (Column V). http://screenshots.bettercloud.com/3n222x0D1U03
-3) On the menu bar, select Tools > Script Editor.
+3) On the menu bar, select Tools > Script Editor. http://screenshots.bettercloud.com/0x2v410n032N
 4) Copy and paste the Apps Script into the Script Editor.
 5) On the menu bar, select Resources > Advanced Google Services.
 6) Toggle 'Drive API' on: http://screenshots.bettercloud.com/0Y1t1f0Y0414
