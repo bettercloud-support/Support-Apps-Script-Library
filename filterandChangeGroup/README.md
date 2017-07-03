@@ -9,4 +9,4 @@ SUMMARY: This is taking every group that contains "a chosen string in their user
 5) Change (string.indexOf("corp"), to your desried group keyword. Change the domain and the desired subdomains to your own as well.
 6) Go to Resources > Advanced Google Services and enable the Admin Directory API. Enable the Admin SDK from the API console.
 7) Run the script, click on View > Logs to see the results
-
+8) Click on > View > Logs to see the groups that were changed. http://screenshots.bettercloud.com/340T1D0d1U17
