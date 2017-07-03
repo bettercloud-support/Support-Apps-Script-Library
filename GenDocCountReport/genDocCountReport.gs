@@ -4,7 +4,7 @@
 
 function myFunction() {
   
-    var d = new Date();
+  var d = new Date();
   d.setDate(d.getDate() - 3); //please adjust the date to your need. -3 is 3 days back -4 is 4 days back..etc
   var timestamp = d.toISOString();
   var realDate = timestamp.slice(0, 10);
