@@ -15,5 +15,5 @@ Note that there is a delay imposed by google for the Reports API. https://suppor
 10) Back in the Apps Script hit 'OK'
 11) Select 'generateUserUsageReport' and click 'Run': http://screencast.com/t/EQ6dv0wg0
 12) Accept permissions
-13) A new spreadsheet called 'genTotalDocsQuota' should be generated. Check under 'Recents' in your Google Drive.
+13) The spreadsheet should then be populated with the generated report.
 http://screenshots.bettercloud.com/0S22182f2R03
