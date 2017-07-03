@@ -1,8 +1,10 @@
 function generateUserUsageReport() {
-  var today = new Date();
-  var timezone = Session.getTimeZone();
-  var date = "2016-11-29";
-  Logger.log(date);
+
+  var d = new Date();
+  var daysBack = 7; 
+  d.setDate(d.getDate() - daysBack); 
+  var timestamp = d.toISOString();
+  var realDate = timestamp.slice(0, 10);
 
 
   var parameters = [
@@ -14,7 +16,7 @@ function generateUserUsageReport() {
   var rows = [];
   var pageToken, page;
   do {
-    page = AdminReports.UserUsageReport.get('all', date, {
+    page = AdminReports.UserUsageReport.get('all', realDate, {
       parameters: parameters.join(','),
       maxResults: 500,
       pageToken: pageToken
