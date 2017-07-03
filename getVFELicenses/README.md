@@ -3,10 +3,8 @@ DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud
 SUMMARY: This script retrieves all VFE licenses for a domain.
 
 1) Create a new spreadsheet
-2) Name Sheet 1 "Google Apps License" (no quotes)
-3) Name Sheet 2 "Vault Former Employee License" (no quotes)
-4) In the menu bar, go toTools > Script editor
-5) Enter in the apps script attached
+4) In the menu bar, go to Tools > Script editor
+5) Paste the Apps Script into the Script Editor
 6) Resources > Advanced Google services
 7) Enable Enterprise License Manager API
 8) Click Google Developers Console in yellow box
