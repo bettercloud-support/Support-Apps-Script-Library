@@ -3,11 +3,12 @@
 // BetterCloud disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose.
 
 function generateUserUsageReport() {
-  var today = new Date();
-  var oneWeekAgo = new Date(today.getTime() - 7 * 24 * 60 * 60 * 1000);
-  var timezone = Session.getTimeZone();
-  var date = "2016-04-27";
-  Logger.log(date);
+  
+  var d = new Date();
+  var daysBack = 7; //please adjust the number of days ago that this script is reporting on to your need. 3 is 3 days back 4 is 4 days back..etc
+  d.setDate(d.getDate() - daysBack); 
+  var timestamp = d.toISOString();
+  var realDate = timestamp.slice(0, 10);
 
   var parameters = [
     'accounts:last_login_time',
@@ -20,7 +21,7 @@ function generateUserUsageReport() {
   var rows = [];
   var pageToken, page;
   do {
-    page = AdminReports.UserUsageReport.get('all', '2016-04-27', {
+    page = AdminReports.UserUsageReport.get('all', realDate, {
       parameters: parameters.join(','),
       maxResults: 500,
       pageToken: pageToken
@@ -48,7 +49,8 @@ function generateUserUsageReport() {
   } while (pageToken);
 
   if (rows.length > 0) {
-    var spreadsheet = SpreadsheetApp.create('Google Apps User Usage Report');
+          
+    var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
     var sheet = spreadsheet.getActiveSheet();
 
     // Append the headers.
