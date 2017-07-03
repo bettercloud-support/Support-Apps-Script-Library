@@ -15,3 +15,4 @@ Note that there is a delay imposed by google for the Reports API. https://suppor
 9) Select 'generateUserUsageReport' and click 'Run': http://screencast.com/t/EQ6dv0wg0
 10) Accept permissions
 11) A new spreadsheet called 'Google Apps User Usage Report' should be generated. Check under 'Recents' in your Google Drive.
+http://screenshots.bettercloud.com/2f0r0Q3m1T2M
