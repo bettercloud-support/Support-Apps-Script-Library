@@ -18,7 +18,7 @@ function updateGroupAlias() {
       
       AdminDirectory.Groups.Aliases.insert({"alias": userName + gAlias}, userName + "@sub.dundermifflin.net"); //takes a group on sub.dudnermifflin.net and adds an alias under dylan.dundermifflin.net 
       SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("B"+(i+1)).setValue("SUCCESS");
-      SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("C"+(i+1)).setValue(userName+gAlias); //column C will update with the new alias
+      SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("C"+(i+1)).setValue(userName+gAlias); //Column C will update with the new alias
     }
     catch(e) {
       SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("B"+(i+1)).setValue("PASS -- Group does not exist");
