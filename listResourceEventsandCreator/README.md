@@ -6,6 +6,7 @@ Summary: Ths script lists all Calendar Resource event names, times, and creators
 2) Go to Tools > Script Editor
 3) Paste the script into the script editor
 4) Go to Resources > Advanced Google Services and enable the Google Calendar API. Enable the Calendar API from the API console as well.
-5) Add a resource email to "var resource"
-6) Run the script
-7) Sheet will populate with event names, times and the creators of those events
+5) Add a resource email to the variable "resource" in the Apps Script. http://screenshots.bettercloud.com/0Z0e3l0V1S1d 
+6) You can get the Resource email from BetterCloud under Google Apps > Calendar > Audit > Resource tab. Then click on the resource name and go to Details to see the email. http://screenshots.bettercloud.com/2U3h0g1q1i2h
+6) Press the 'Play' button to run the script. Accept the permissions.
+7) The spreadsheet will then populate with the creator of the event in Column A, the name of the event in Column B and the Resource Name in Column C. http://screenshots.bettercloud.com/1A1a0N0O0j1Q
