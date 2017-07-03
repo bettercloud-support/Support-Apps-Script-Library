@@ -8,7 +8,8 @@ Summary: This script takes a group name and adds an alias to it under a differen
 3) In the script editor, paste the Apps Script.
 4) Go to Resources > Advanced Google Sercices and enable the Admin Directory API. 
 5) Enable the Admin SDK in the API console as well. Enable the Admin SDK in the API console as well. http://screenshots.bettercloud.com/0r123C1z1608
-6) Change the domain, desired alias subdomain all to your own domains inside the script http://screenshots.bettercloud.com/1J0t3o1t0l1c
-7) Add the group name in column A that you wish to add the alias to.
+6) Change the variable gAlias to the desired alias for your groups.
+http://screenshots.bettercloud.com/1J0t3o1t0l1c
+7) Add the group name in column A of the spreadsheet that you wish to add the alias to. http://screenshots.bettercloud.com/1E1Q2V0F2g3T
 8) Run the script with the Play button. Column C will populate with the new alias if successful. http://screenshots.bettercloud.com/3y2N3C3w0R0a
 
