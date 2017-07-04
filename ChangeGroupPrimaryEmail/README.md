@@ -1,6 +1,6 @@
 DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud standard support program or service. The sample scripts are provided AS IS without warranty of any kind. BetterCloud disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose.
 
-SUMMARY:This script simples takes a Google Group email in Column A of a spreadsheet, and changes it to the Group email entered in Column B. 
+SUMMARY: This script simples takes a Google Group email in Column A of a Google Sheet, and changes it to the Group email entered in Column B. 
 
 1) In Google Drive, create a new Google Sheet.
 2) Enter in old Group email addresses in column A.
