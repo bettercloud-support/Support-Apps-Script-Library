@@ -6,7 +6,7 @@ The entire risk arising out of the use or performance of the sample scripts and 
 
 SUMMARY: This script bulk updates the EmployeeID field for a user. Employee ID is shown in a user G Suite profile under Basic Information > Additional Info > Next. http://screenshots.bettercloud.com/110H2r0a1D01
 
-1) Open a new Google Sheet in Drive
+1) Open a new Google Sheet in Drive.
 2) Add the User Emails in Cell A2 and below. Add the EmployeeID in Cell B2 and below.
 3) Go to Tools > Script Editor in the sheet.
 4) Go to Resources > Advanced Google services in the Script Editor and enable the Admin Directory API.
