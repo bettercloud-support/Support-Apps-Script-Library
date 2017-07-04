@@ -5,7 +5,7 @@ SUMMARY: This script takes a Google Group email on one domain and changes it to 
 
 1) In Google Drive, create a new Google Sheet.
 2) Go to Tools > Script Editor.
-3) In the script editor, paste the script. 
+3) In the Script Editor, paste the script. 
 4) Go to Resources > Advanced Google Sercices and enable the Admin Directory API. 
 5) Enable the Admin SDK in the API console as well. http://screenshots.bettercloud.com/0r123C1z1608
 6) Add the Group emails you wish to modify in column A.
