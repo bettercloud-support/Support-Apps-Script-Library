@@ -11,5 +11,5 @@ SUMMARY: This script bulk updates the EmployeeID field for a user. Employee ID i
 3) Go to Tools > Script Editor in the sheet.
 4) Go to Resources > Advanced Google services in the Script Editor and enable the Admin Directory API.
 5) Enable the Admin SDK from the API Console as well.
-6) Run the script, Column C should populate with success/failure http://screenshots.bettercloud.com/3r440r2R0z2B
+6) Run the script, Column C should populate with Success/Failure http://screenshots.bettercloud.com/3r440r2R0z2B
 
