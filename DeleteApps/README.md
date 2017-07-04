@@ -4,11 +4,11 @@ DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud
 
 SUMMARY: This script revokes access to third party apps using G Suite data based on the email address given in the spreadsheet.
 
-1) Please create a new Google Sheet
+1) Please create a new Google Sheet in Drive.
 2) Enter the user's email addresses you’d like to revoke access to Apps to in Column A. Enter the Client ID of the app in column B.
 3) You can retrieve the ClientID of all aplications from BetterCloud's Apps Audit using the 'App ID' field. Please go to Apps > Audit in BetterCloud and hit 'Export to a spreadsheet' for your chosen app(s). http://screenshots.bettercloud.com/2n3B3F02150x
 4) You will then get a spreadsheet of your chosen app information in Google Drive. Copy & Paste the 'AppID' of your chosen app from the App Export into column B of the script spreadsheet. http://screenshots.bettercloud.com/3s1m071n1m0a
-3) Once you have the user's email and clientID in the spreadsheet, go to Tools > Script Editor.
+3) Once you have the user's email and clientID in the Google Sheet, go to Tools > Script Editor.
 4) Paste the Apps Script provided.
 5) Go to Resources > Advanced Google Services.
 6) Enable the Admin Directory API.
