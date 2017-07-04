@@ -1,6 +1,6 @@
 DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud standard support program or service. The sample scripts are provided AS IS without warranty of any kind. BetterCloud disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you.
 
-SUMMARY: This script will delete a calendar event from every email entered in cell A2 and below. This is useful if there was a calendar event made by a deleted user, and active users are still invited to the event.
+SUMMARY: This script will delete a Google Calendar event from every user who's email is entered in cell A2 and below. This is useful if there was a calendar event made by a deleted user, and active users are still invited to the event.
 
 1) First, to get the eventID for the specified event, follow the Google link and then click on the Event > More actions > Troubleshooting Info  https://www.google.com/calendar/render?gsessionid=OK&eventdeb=1
 2) Screenshot of step 1: http://screenshots.bettercloud.com/1j1Z2v0n2o2z
