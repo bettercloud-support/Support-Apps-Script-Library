@@ -16,11 +16,11 @@ function changeGroupPrimaryEmail() {
     var newGroupChange = newGroup[i];
     
     
-try{
+try {
 AdminDirectory.Groups.update({"email": newGroup[i]}, oldGroup[i]);
 SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("C"+(i+1)).setValue("SUCCESS")
 }
-catch(e){
+catch(e) {
 SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("C"+(i+1)).setValue("FAILED")
 }
   }
