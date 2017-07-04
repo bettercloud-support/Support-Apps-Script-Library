@@ -1,6 +1,6 @@
 DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud standard support program or service. The sample scripts are provided AS IS without warranty of any kind. BetterCloud disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose.
 
-SUMMARY: This script takes a group email on one domain and changes it to a sub-domain that is entered in the script.
+SUMMARY: This script takes a Google Group email on one domain and changes it to a sub-domain that is entered in the script.
 (e.g,. group@dundermifflin.net to group@sub.dundermifflin.net)and keeps the old domain as an alias.
 
 1) In Google Drive, open up a new spreadsheet 
