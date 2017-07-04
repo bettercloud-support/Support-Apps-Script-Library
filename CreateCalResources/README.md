@@ -1,6 +1,6 @@
 DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud standard support program or service. The sample scripts are provided AS IS without warranty of any kind. BetterCloud disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you.
 
-SUMMARY: This script creates Google Calendar Resources via paramters in a Google spreadsheet. 
+SUMMARY: This script creates Google Calendar Resources via parameters in a Google spreadsheet. 
 
 1) Open a new Google sheet
 2) Click on Tools > Script Editor
