@@ -1,7 +1,11 @@
+// DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud standard support program or service. 
+// The sample scripts are provided AS IS without warranty of any kind. 
+// BetterCloud disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose.
+
 function generateUserUsageReport() {
 
   var d = new Date();
-  var daysBack = 7; 
+  var daysBack = 90; 
   d.setDate(d.getDate() - daysBack); 
   var timestamp = d.toISOString();
   var realDate = timestamp.slice(0, 10);
@@ -41,7 +45,7 @@ function generateUserUsageReport() {
 
 
   if (rows.length > 0) {
-    var spreadsheet = SpreadsheetApp.create('Google Apps User Usage Report');
+    var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
     var sheet = spreadsheet.getActiveSheet();
 
 
@@ -58,4 +62,26 @@ function generateUserUsageReport() {
   } else {
     Logger.log('No results returned.');
   }
+}
+/**
+ * Gets a map of parameter names to values from an array of parameter objects.
+ * @param {Array} parameters An array of parameter objects.
+ * @return {Object} A map from parameter names to their values.
+ */
+function getParameterValues(parameters) {
+  return parameters.reduce(function(result, parameter) {
+    var name = parameter.name;
+    var value;
+    if (parameter.intValue !== undefined) {
+      value = parameter.intValue;
+    } else if (parameter.stringValue !== undefined) {
+      value = parameter.stringValue;
+    } else if (parameter.datetimeValue !== undefined) {
+      value = new Date(parameter.datetimeValue);
+    } else if (parameter.boolValue !== undefined) {
+      value = parameter.boolValue;
+    }
+    result[name] = value;
+    return result;
+  }, {});
 }
