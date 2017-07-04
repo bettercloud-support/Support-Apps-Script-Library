@@ -4,10 +4,10 @@ SUMMARY: This script takes a Google Group email on one domain and changes it to 
 (e.g,. group@dundermifflin.net to group@sub.dundermifflin.net) and keeps the old domain as an alias.
 
 1) In Google Drive, create a new Google Sheet.
-2) Go to Tools > Script Editor
+2) Go to Tools > Script Editor.
 3) In the script editor, paste the script. 
 4) Go to Resources > Advanced Google Sercices and enable the Admin Directory API. 
 5) Enable the Admin SDK in the API console as well. http://screenshots.bettercloud.com/0r123C1z1608
-6) Add the group emails you wish to modify in column A.
+6) Add the Group emails you wish to modify in column A.
 7) Click the 'Play' button to run the script.
 8) Column B will update with SUCCESS or FAIL, for each group. http://screenshots.bettercloud.com/2w2F3j262y2i
