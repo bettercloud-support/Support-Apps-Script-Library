@@ -2,7 +2,7 @@
 // The sample scripts are provided AS IS without warranty of any kind. 
 // BetterCloud disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose.
 
-function listNext10Events() {
+function listEvents() {
   var now = new Date();
   var maxRows = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getLastRow();
   var id = SpreadsheetApp.getActiveSheet().getRange("A1:A"+ maxRows).getValues();
