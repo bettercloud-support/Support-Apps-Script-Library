@@ -2,9 +2,9 @@ DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud
 
 SUMMARY: This script will show the last Google Calendar event on a resource given in a spreadsheet.
 
-1) Open a new Google Sheet in Google Drive
-2) Go to Tools > Script Editor
-3) Paste the script into the Script Editor
+1) Open a new Google Sheet in Google Drive.
+2) Go to Tools > Script Editor.
+3) Paste the script into the Script Editor.
 4) Go to Resources > Advanced Google Services and enable the Google Calendar API. Enable the Calendar API from the API console as well. http://screenshots.bettercloud.com/392B0w3R3K2Y
 5) Back in the spreadsheet, add the resource emails to Column A. Like so: http://screenshots.bettercloud.com/3K2l0A122V2R
 6) You can get the resource email through BetterCloud by going to Google Apps > Calendar > Audit and then the 'Resource' tab. The email will show under the 'Details' tab when you click on the Resource. http://screenshots.bettercloud.com/3K3X3r3V1Y1q
