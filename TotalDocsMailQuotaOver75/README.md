@@ -12,7 +12,7 @@ Note that there is a delay imposed by google for the Reports API. https://suppor
 7) Toggle 'Admin Reports API' to ON: http://screencast.com/t/GH1mtvqEz
 8) Click 'Google Developers Console': http://screencast.com/t/PfIUWvNmWP
 9) Search for 'Admin SDK' and click into it: http://screencast.com/t/IBh14adViSR8
-10) Back in the Apps Script, hit 'OK'
+10) Back in the Apps Script, hit 'OK'.
 11) Select 'generateUserUsageReport' and click 'Run': http://screencast.com/t/EQ6dv0wg0
 12) Accept permissions.
 13) The spreadsheet should then be populated with the generated report.
