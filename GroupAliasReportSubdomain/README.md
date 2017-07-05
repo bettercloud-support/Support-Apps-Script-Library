@@ -2,9 +2,9 @@ DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud
 
 SUMMARY: This script returns Google Groups that have Group aliases. This script can take multiple domains as input in Sheet 2, and then returns the groups & respective aliases in sheet 1.
 
-1) Create a new spreadsheet
-2) Create a new sheet and leave it named Sheet 2
-3) List all domains in column A (In Sheet 2): http://screenshots.bettercloud.com/442e0l1Y0T23
+1) Create a new Google Sheet in Drive.
+2) Create a new sheet and leave it named Sheet 2.
+3) List all domains in Column A (In Sheet 2): http://screenshots.bettercloud.com/442e0l1Y0T23
 4) Please go to Tools > Script editor
 5) Paste the Apps Script: http://screenshots.bettercloud.com/252n1u1w0v40
 6) Go to Resources > Advanced Google Services
@@ -15,4 +15,4 @@ SUMMARY: This script returns Google Groups that have Group aliases. This script 
 11) Press the play button
 12) Accept permissions
 13) Script will finish running when this message disappears: http://screenshots.bettercloud.com/2W0X0I0m3X2Z
-14) Results will show in Sheet 1 (Group email in column A, Alias in column B): http://screenshots.bettercloud.com/1L3x13021N06
+14) Results will show in Sheet 1 (Group email in Column A, Alias in Column B): http://screenshots.bettercloud.com/1L3x13021N06
