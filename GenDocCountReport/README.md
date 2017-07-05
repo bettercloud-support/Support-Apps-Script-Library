@@ -10,7 +10,7 @@ https://developers.google.com/admin-sdk/reports/v1/reference/usage-ref-appendix-
 3) Paste the Apps Script.
 4) Go to Resources > Advanced Google Services
 5) Enable the Admin Reports API and the Admin SDK in the API console. http://screenshots.bettercloud.com/0l1E1v072C1W
-6) Edit the variable 'daysBack' to the date you wish to report on. If set to 3, the report will get data from 3 days ago, if 4, 4 days ago and etc. 
+6) In the Script Editor, edit the variable 'daysBack' to the date you wish to report on. If set to 3, the report will get data from 3 days ago, if 4, 4 days ago and etc. 
 Note that there is a delay imposed by Google for the Reports API. https://support.google.com/a/answer/7061566?hl=en
 7) Run the script.
 8) The number of Google Docs for each user should be populated in Column B. http://screenshots.bettercloud.com/463U3Z1D0k3X
