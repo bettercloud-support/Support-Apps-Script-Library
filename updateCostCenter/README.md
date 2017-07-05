@@ -4,7 +4,7 @@ SUMMARY: This script updates the CostCenter field for a user in G Suite using pr
 
 1) Open a new Google Sheet in Google Drive.
 2) Add the User Emails in Cell A2 and below. Add the Cost Center in Cell B2 and below. http://screenshots.bettercloud.com/2k0X3R2f1F03
-3) In the Menu bar, go to Tools > Script Editor
+3) In the Menu bar, go to Tools > Script Editor.
 4) In the Script Editor, go to Resources > Advanced Google services and enable the Admin Directory API.
 5) Enable the Admin SDK from the API Console as well. http://screenshots.bettercloud.com/1H2m0o2y2Y0I
 6) Run the script, Column C should populate with success/failure. http://screenshots.bettercloud.com/3H0Y0T470s0u
