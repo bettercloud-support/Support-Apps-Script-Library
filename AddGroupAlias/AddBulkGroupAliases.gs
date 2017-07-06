@@ -9,7 +9,7 @@ function addGroupAliasFromSheet() {
   var maxRows = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet1").getLastRow();
   var groups = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet1").getRange("A1:A"+ maxRows).getValues(); //gets groups from spreadsheet
   var newAlias = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet1").getRange("B1:B"+ maxRows).getValues(); //gets aliases to add from spreadsheet
-  var logs = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet1").getRange("BC1:C"+ maxRows).getValues(); //logs success or failure
+  var logs = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet1").getRange("C1:C"+ maxRows).getValues(); //logs success or failure
 
   for (var i = 0; i < groups.length; i++)
   {
