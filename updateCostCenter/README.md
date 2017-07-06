@@ -7,5 +7,5 @@ SUMMARY: This script updates the CostCenter field for a user in G Suite using pr
 3) In the Menu bar, go to Tools > Script Editor.
 4) In the Script Editor, go to Resources > Advanced Google services and enable the Admin Directory API.
 5) Enable the Admin SDK from the API Console as well. http://screenshots.bettercloud.com/1H2m0o2y2Y0I
-6) Run the script, Column C should populate with success/failure. http://screenshots.bettercloud.com/3H0Y0T470s0u
+6) Run the script, Column C should populate with Success/Failure. http://screenshots.bettercloud.com/3H0Y0T470s0u
 
