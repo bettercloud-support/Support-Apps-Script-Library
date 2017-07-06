@@ -5,7 +5,7 @@ DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud
 SUMMARY: This script creates Google Groups based on the paramaters given in the "suffix" string and the quantity given in the "num" string of the script.
 
 1) Please create a new Google Sheet in Drive.
-2) Enter the group email addresses you’d like to create in "suffix" and the quantity in "num", edit the domain to your chosen domain. http://screenshots.bettercloud.com/470X030b3q2G
+2) Enter the group email addresses you’d like to create in "suffix" and the quantity in "num", and edit the domain to your chosen domain. http://screenshots.bettercloud.com/470X030b3q2G
 3) Go to Tools > Script Editor in the sheet.
 4) Paste the Apps Script provided into the Script Editor.
 5) Go to Resources > Advanced Google Services
