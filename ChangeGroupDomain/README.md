@@ -8,6 +8,6 @@ SUMMARY: This script takes a Google Group email on one domain and changes it to 
 3) In the Script Editor, paste the script. 
 4) Go to Resources > Advanced Google Sercices and enable the Admin Directory API. 
 5) Enable the Admin SDK in the API console as well. http://screenshots.bettercloud.com/0r123C1z1608
-6) Add the Group emails you wish to modify in column A.
+6) Add the Group emails you wish to modify in Column A. http://screenshots.bettercloud.com/1b1z1N463X2l
 7) Click the 'Play' button to run the script.
 8) Column B will update with SUCCESS or FAIL, for each group. http://screenshots.bettercloud.com/2w2F3j262y2i
