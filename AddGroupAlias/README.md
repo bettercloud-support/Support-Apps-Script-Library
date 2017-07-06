@@ -1,7 +1,6 @@
 DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud standard support program or service. The sample scripts are provided AS IS without warranty of any kind. BetterCloud disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose.
 
-SUMMARY: This script will add a Group alias to a Google Group that is specified in the Google Sheet column.
-
+SUMMARY: This script will add a Group alias to a Google Group that are both specified in Google Sheet columns.
 1) Create a Google Sheet in Google Drive.
 2) Input the Group emails you wish to add the alias to in Column A and the alias name in Column B. http://screenshots.bettercloud.com/172f0K2X0a3w
 3) Go to Tools > Script Editor.
