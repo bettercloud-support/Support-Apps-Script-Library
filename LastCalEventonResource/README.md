@@ -1,6 +1,6 @@
 DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud standard support program or service. The sample scripts are provided AS IS without warranty of any kind. BetterCloud disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you.
 
-SUMMARY: This script will show the last Google Calendar event on a resource given in a Google Sheet.
+SUMMARY: This script will show the last Google Calendar event on a Calendar Resource via a Google Sheet.
 
 1) Open a new Google Sheet in Google Drive.
 2) Go to Tools > Script Editor.
