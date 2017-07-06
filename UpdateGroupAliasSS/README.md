@@ -11,5 +11,6 @@ Summary: This script takes a Google Group name and adds an alias to it under a d
 6) Change the variable gAlias to the desired alias for your groups.
 http://screenshots.bettercloud.com/1J0t3o1t0l1c
 7) Add the Group name in Column A of the spreadsheet that you wish to add the alias to. http://screenshots.bettercloud.com/1E1Q2V0F2g3T
-8) Run the script with the Play button. Column C will populate with the new alias if successful. http://screenshots.bettercloud.com/3y2N3C3w0R0a
+8) Run the script with the Play button and accept permissions. You'll get a SUCCESS or PASS message in Column B.
+9) Column C will populate with the new alias if successful. http://screenshots.bettercloud.com/3y2N3C3w0R0a
 
