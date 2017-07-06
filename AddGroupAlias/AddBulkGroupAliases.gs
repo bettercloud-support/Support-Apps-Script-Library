@@ -49,7 +49,7 @@ function addGroupAliasFromSheet() {
     }
     else{
       AdminDirectory.Groups.Aliases.insert({"alias": newAlias[i]}, groups[i]);
-      var logs = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet1").getRange("C1:C"+ maxRows).setValue("SUCCESS"); //gets users to add as owners from spreadsheet
+      var logs = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet1").getRange("C1:C"+ maxRows).setValue("SUCCESS"); 
     }
   }
   
