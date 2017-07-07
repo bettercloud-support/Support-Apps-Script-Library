@@ -1,6 +1,6 @@
 DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud standard support program or service. The sample scripts are provided AS IS without warranty of any kind. BetterCloud disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you.
 
-SUMMARY: This script creates Google Calendar Resources via parameters in a Google Sheet.
+SUMMARY: This script creates Google Calendar Resources via parameters given in a Google Sheet.
 
 1) In Google Drive, open a new Google Sheet.
 2) Click on Tools > Script Editor in the Google Sheet's menu bar.
@@ -10,4 +10,5 @@ SUMMARY: This script creates Google Calendar Resources via parameters in a Googl
 6) Back in the spreadsheet, enter the name of the Resource, the ResourceID and then the type of the Resource in and below Cells A2, B2 and C2.
 http://screenshots.bettercloud.com/0l2j1i1B2u0t
 7) Resource ID in Column B can be any random, unique string of characters.
-7) Run the script, click on View > Logs to see the results. http://screenshots.bettercloud.com/2h0R3J1E2M1F
+7) Click the Play button to run the script.
+8) Click on View > Logs to see the results. http://screenshots.bettercloud.com/2h0R3J1E2M1F
