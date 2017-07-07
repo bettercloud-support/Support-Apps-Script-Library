@@ -1,7 +1,7 @@
 DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud standard support program or service. The sample scripts are provided AS IS without warranty of any kind. BetterCloud disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you.
 
 SUMMARY: This script returns the number of Google Docs that the user owns. 
-The data is coming from the num_docs in the Reports API. Please note that this field will no longer be available in 2018.
+The data is coming from the num_docs field in the Reports API. Please note that this field will no longer be available in 2018.
 https://developers.google.com/admin-sdk/reports/v1/reference/usage-ref-appendix-a/users-docs
 
 
