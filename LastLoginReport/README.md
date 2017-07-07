@@ -5,7 +5,7 @@ Info on the fields used in the script can be seen here: https://developers.googl
 
 1) Open a new Google Sheet in Drive.
 2) Go to Tools > Script Editor in the spreadsheet.
-3) Copy the Apps Script attached and paste it in the Script Editor.
+3) Copy the Apps Script attached and paste it into the Script Editor.
 4) In the script, edit the variable 'daysBack' to the date you wish to report on. If set to 3 the report will get data from 3 days ago, if 4, 4 days ago and etc. 
 Note that there is a delay imposed by google for the Reports API. https://support.google.com/a/answer/7061566?hl=en
 4) Go to Resources > Advanced Google Services in the Script Editor.
