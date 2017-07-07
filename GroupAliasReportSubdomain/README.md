@@ -1,6 +1,6 @@
 DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud standard support program or service. The sample scripts are provided AS IS without warranty of any kind. BetterCloud disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you.
 
-SUMMARY: This script returns Google Groups that have Group aliases. This script can take multiple domains as input in Sheet 2, and then returns the groups & respective aliases in sheet 1.
+SUMMARY: This script returns Google Groups that have Group aliases in a Google Sheet. This script can take multiple domains as input in Sheet 2, and then returns the groups & respective aliases in Sheet 1.
 
 1) Create a new Google Sheet in Drive.
 2) Create a new sheet and leave it named Sheet 2.
