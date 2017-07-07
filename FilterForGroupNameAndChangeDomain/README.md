@@ -5,7 +5,7 @@ SUMMARY: This script is taking every Google Group that contains a chosen string 
 1) Open a new Google Sheet in Google Drive.
 2) Go to Tools > Script Editor.
 3) Paste the Apps Script into the Script Editor.
-4) Edit the domain string to your chosen domain.
+4) Edit the domain string in the script to your chosen domain. http://screenshots.bettercloud.com/3W2w1S0A0Q2a
 5) Change (string.indexOf("distro0"), to your own desried group keyword. Change the domain and the desired subdomains to your own as well.
 http://screenshots.bettercloud.com/33132O2j1K41
 6) Go to Resources > Advanced Google Services and enable the Admin Directory API. Enable the Admin SDK from the API console. http://screenshots.bettercloud.com/1H2m0o2y2Y0I
