@@ -3,7 +3,7 @@ DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud
 SUMMARY: This script creates Google Docs based on the number and title specified.
 
 1) Create a new Google Apps Script in Google Drive. You can open a Google Doc/Sheet and then go to Tools > Script Editor to do so. Or if you have the Apps Script Chrome extension, you can go to New > More > Google Apps Script in Drive. http://screenshots.bettercloud.com/0J363u0k1r0y
-2) Add the code into the Script Editor.
+2) Paste the attached Apps Script into the Script Editor.
 3) Change the i<5 portion of the for loop to the number of docs you desire. If i<5, it will create 5 docs. If i<6, then 6 docs,etc.
 4) Enter your desired doc name in the "Doc" string. http://screenshots.bettercloud.com/0F1x373W3u0t
 4) Hit the 'Play' button to run the script. http://screenshots.bettercloud.com/2L1I1T3k4013
