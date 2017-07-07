@@ -15,5 +15,4 @@ SUMMARY: This script creates Google Groups based on the Group name given in the 
 9) Back in the Apps Script, press OK.
 10) Then, press the play button.
 11) Accept permissions.
-12) The script will finish running when this message disappears: http://screencast.com/t/IwyVBIsZG8
-13) Click on View > Logs in the script editor to see the results.http://screenshots.bettercloud.com/1B3b1p0t2M3P
+12) Click on View > Logs in the script editor to see the results.http://screenshots.bettercloud.com/1B3b1p0t2M3P
