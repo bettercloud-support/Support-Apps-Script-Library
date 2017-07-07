@@ -8,7 +8,7 @@ function myFunction() {
   //var sheet = ssNew.getSheets()[0];
   do {
     page = AdminDirectory.Groups.list({
-      domain: 'dundermifflin.net', //edit domain here
+      domain: 'dundermifflin.net', //Please change dundermifflin.net to your own desired domain name.
       maxResults: 100,
       pageToken: pageToken
     });
