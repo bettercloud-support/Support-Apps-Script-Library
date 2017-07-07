@@ -4,7 +4,7 @@ SUMMARY: This script takes a Google Group email in Column A of a Google Sheet, a
 
 1) In Google Drive, create a new Google Sheet.
 2) Enter the old Group email addresses in Column A.
-3) Enter the new Group email addresses in Column B http://screenshots.bettercloud.com/3Q2V2J1C1V2h
+3) Enter the new desired Group email addresses in Column B. http://screenshots.bettercloud.com/3Q2V2J1C1V2h
 4) In the Google's menu bar, go to Tools > Script Editor.
 5) Paste the script into the Script Editor.
 6) Resources > Advanced Google Services.
