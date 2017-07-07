@@ -1,7 +1,7 @@
 DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud standard support program or service. The sample scripts are provided AS IS without warranty of any kind. BetterCloud disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you.
 
 
-SUMMARY: This script undeletes G Suite users that were deleted within 5 days. https://developers.google.com/admin-sdk/directory/v1/reference/users/undelete
+SUMMARY: This script undeletes G Suite users that were deleted within 5 days, and places them in the Root OU. https://developers.google.com/admin-sdk/directory/v1/reference/users/undelete
 
 1) Open up a Google Sheet in Google Drive, and then click on Tools > Script Editor
 2) In the Script Editor, please add the name of the Org Unit that the restored users will be placed. http://screenshots.bettercloud.com/2G1J3m2v1K1f
