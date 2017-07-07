@@ -3,7 +3,7 @@ DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud
 SUMMARY: This script is taking every Google Group that contains a chosen string in their username and changes their domain to a given domain. (e.g., changing a Group with the string "corp" that is on @gameofclouds.com and changes the domain to @b.gameofclouds.com)
 
 1) Open a new Google Sheet in Google Drive.
-2) Go to Tools > Script Editor
+2) Go to Tools > Script Editor.
 3) Paste the Apps Script into the Script Editor.
 4) Edit the domain string to your chosen domain.
 5) Change (string.indexOf("distro0"), to your desried group keyword. Change the domain and the desired subdomains to your own as well.
