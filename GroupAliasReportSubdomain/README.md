@@ -6,7 +6,7 @@ SUMMARY: This script returns Google Groups that have Group aliases in a Google S
 2) Create a new sheet and leave it named Sheet 2.
 3) List all domains in Column A (In Sheet 2): http://screenshots.bettercloud.com/442e0l1Y0T23
 4) Please go to Tools > Script editor.
-5) Paste the Apps Script: http://screenshots.bettercloud.com/252n1u1w0v40
+5) Paste the Apps Script into the Script Editor: http://screenshots.bettercloud.com/252n1u1w0v40
 6) Go to Resources > Advanced Google Services.
 7) Enable the Admin Directory API.
 8) Click "Google Developers Console" in the yellow box.
