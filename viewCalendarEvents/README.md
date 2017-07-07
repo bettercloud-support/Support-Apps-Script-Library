@@ -10,6 +10,6 @@ Summary: This script shows Google Calendar events for the Calendar IDs listed in
 6) In the sheet, enter the Calendar ID of the Resources you wish to examine in Column A. http://screenshots.bettercloud.com/1w353n2A0M0d
 7) You can get Calendar IDs from Google Calendar > Calendar Settings: http://screenshots.bettercloud.com/200s170w0H21
 8) Or from BetterCloud using Calendar Audit, selecting the Calendar > Details. http://screenshots.bettercloud.com/3N3v1a1B3q2A
-9) In the script code, enter email of the event creator in the 'creator' string. http://screenshots.bettercloud.com/0G0v1m0R2F2x
+9) In the script code, enter the email address of the event creator in the 'creator' string. http://screenshots.bettercloud.com/0G0v1m0R2F2x
 10) Press the Play button to run the script. 
 11) The Google Sheet will populate with the latest events: http://screenshots.bettercloud.com/0o3v2N1K3629
