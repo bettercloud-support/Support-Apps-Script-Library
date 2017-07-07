@@ -7,3 +7,4 @@ SUMMARY: This script creates Google Docs based on the quantity and title specifi
 3) Change the the "num" variable to the number of docs you desire. If num=5, it will create 5 docs. If num=6, then 6 docs,etc. http://screenshots.bettercloud.com/2z1s2d1Y0z2e
 4) Enter your desired doc name in the "Doc" string. http://screenshots.bettercloud.com/0F1x373W3u0t
 4) Hit the 'Play' button to run the script. http://screenshots.bettercloud.com/2L1I1T3k4013
+5) Click on View > logs to see the amount of docs created. http://screenshots.bettercloud.com/0Q3Q06221M3C
