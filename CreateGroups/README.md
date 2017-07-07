@@ -8,12 +8,12 @@ SUMMARY: This script creates Google Groups based on the Group name given in the 
 2) Enter the Group email addresses you’d like to create in "suffix" and the quantity in "num", and edit the domain to your chosen domain. http://screenshots.bettercloud.com/470X030b3q2G
 3) Go to Tools > Script Editor in the sheet.
 4) Paste the Apps Script provided into the Script Editor.
-5) Go to Resources > Advanced Google Services
-6) Enable the Admin Directory API
-7) Click "Google Developers Console" in the yellow box 
+5) Go to Resources > Advanced Google Services.
+6) Enable the Admin Directory API.
+7) Click "Google Developers Console" in the yellow box.
 8) Search for Admin SDK and enable. http://screenshots.bettercloud.com/1H2m0o2y2Y0I
-9) Back in the Apps Script, press OK
-10) Then, press the play button
-11) Accept permissions
+9) Back in the Apps Script, press OK.
+10) Then, press the play button.
+11) Accept permissions.
 12) The script will finish running when this message disappears: http://screencast.com/t/IwyVBIsZG8
 13) Click on View > Logs in the script editor to see the results.http://screenshots.bettercloud.com/1B3b1p0t2M3P
