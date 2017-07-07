@@ -5,7 +5,9 @@
 
 function myFunction() {
   
-  for (var i=0; i < 1000; i++){
+  var num = 5; //Please change "num" to the number of docs you wish to create. Set to 5 by default.
+  
+  for (var i=0; i < num; i++){
   DocumentApp.create("Doc" + (i+1)) //Add doc name in the "doc" string
   Logger.log(i);
   }
