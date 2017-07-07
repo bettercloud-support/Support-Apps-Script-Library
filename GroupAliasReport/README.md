@@ -5,16 +5,17 @@ SUMMARY: This script lists all the Google Groups with Group aliases for a given 
 Instructions:
 
 1. Create a new Google Sheet in Google Drive.
-2. Go to Tools > Script editor in the spreadsheet.
-3. Paste the Apps Script. In the 'domain' field, plase enter your own domain in place of 'dundermifflin.net' http://screenshots.bettercloud.com/0x3h0q2J393v
-4. Go to Resources > Advanced Google Services. Enable the Admin Directory API
-5. Click "Google Developers Console" in the yellow box
-6. Search for Admin SDK and enable as well. http://screenshots.bettercloud.com/0r123C1z1608
-7. Back in the Apps Script, press OK.
-8. Press the play button.
-9. Accept permissions.
-10. Script will finish running the yellow message disappears.
-11. The Group emails will show up in Column A, and their associated aliases in Column B. http://screenshots.bettercloud.com/010r452U0d16
+2. Go to Tools > Script editor in the sheet.
+3. Paste the attached Apps Script into the Script Editor. 
+4. In the 'domain' field, plase enter your own domain in place of 'dundermifflin.net' http://screenshots.bettercloud.com/0x3h0q2J393v
+5. Go to Resources > Advanced Google Services. Enable the Admin Directory API
+6. Click "Google Developers Console" in the yellow box
+7. Search for Admin SDK and enable as well. http://screenshots.bettercloud.com/0r123C1z1608
+8. Back in the Apps Script, press OK.
+9. Press the play button.
+10. Accept permissions.
+11. Script will finish running the yellow message disappears.
+12. The Group emails will show up in Column A, and their associated aliases in Column B. http://screenshots.bettercloud.com/010r452U0d16
 
 
 
