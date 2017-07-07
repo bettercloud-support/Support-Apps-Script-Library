@@ -1,6 +1,6 @@
 DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud standard support program or service. The sample scripts are provided AS IS without warranty of any kind. BetterCloud disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you.
 
-SUMMARY: This script creates Google Docs based on the number and title specified.
+SUMMARY: This script creates Google Docs based on the quantity and title specified.
 
 1) Create a new Google Apps Script in Google Drive. You can open a Google Doc/Sheet and then go to Tools > Script Editor to do so. Or if you have the Apps Script Chrome extension, you can go to New > More > Google Apps Script in Drive. http://screenshots.bettercloud.com/0J363u0k1r0y
 2) Paste the attached Apps Script into the Script Editor.
