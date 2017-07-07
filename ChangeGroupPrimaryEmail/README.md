@@ -5,9 +5,9 @@ SUMMARY: This script takes a Google Group email in Column A of a Google Sheet, a
 1) In Google Drive, create a new Google Sheet.
 2) Enter the old Group email addresses in Column A.
 3) Enter the new desired Group email addresses in Column B. http://screenshots.bettercloud.com/3Q2V2J1C1V2h
-4) In the Google's menu bar, go to Tools > Script Editor.
-5) Paste the script into the Script Editor.
-6) Resources > Advanced Google Services.
+4) In the menu bar, go to Tools > Script Editor.
+5) Paste the Apps Script into the Script Editor.
+6) Go to Resources > Advanced Google Services.
 7) Enable the Admin Directory API.
 8) Click Google Developers Console in the yellow box.
 9) Search for Admin SDK and enable. http://screenshots.bettercloud.com/1H2m0o2y2Y0I
