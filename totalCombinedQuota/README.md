@@ -1,6 +1,6 @@
 DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud standard support program or service. The sample scripts are provided AS IS without warranty of any kind. BetterCloud disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you.
 
-SUMMARY: This script gets a UserUsage Report of Docs/Mail Usage. Quotas only apply to G Suite Basic Users, as other versions of G Suite now offer unlimited storage.
+SUMMARY: This script gets a UserUsage Report of Docs/Mail Usage. Quotas only apply to G Suite Basic Users, as other versions of G Suite now offer unlimited storage. Fields used in the script can be seen here: https://developers.google.com/admin-sdk/reports/v1/reference/usage-ref-appendix-a/users-accounts
 
 1) In Google Drive, create a new Google Sheet.
 2) Go to Tools > Script Editor in the spreadsheet.
