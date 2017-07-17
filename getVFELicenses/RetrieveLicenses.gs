@@ -14,7 +14,7 @@ function onOpen() {
 }
 
 
-function listGALicenseAssignments() { //This function retrieves all G Suite Licenses on your DOmain.
+function listGALicenseAssignments() { //This function retrieves all G Suite Licenses on your Domain.
   var customerId = 'dundermifflin.net'; //change dundermifflin.net to your own domain.
   var productId = 'Google-Apps';
   var response = AdminLicenseManager.LicenseAssignments.listForProduct(productId,
