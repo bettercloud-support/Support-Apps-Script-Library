@@ -19,4 +19,4 @@ Note that there is a delay imposed by Google for the Reports API. https://suppor
 13) The report will then be generated inside the spreadsheet.
 http://screenshots.bettercloud.com/2f0r0Q3m1T2M
 
-NOTE: If you receive an error saying that Data for dates later than X are unavailable, please increase the daysBack variable to report a date prior than what the error message shows. http://screenshots.bettercloud.com/3O2821472009
+NOTE: If you receive an error saying that "Data for dates later than X are unavailable", please increase the daysBack variable to report a date prior than what the error message shows. http://screenshots.bettercloud.com/3O2821472009
