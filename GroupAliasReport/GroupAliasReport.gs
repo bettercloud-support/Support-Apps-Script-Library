@@ -4,8 +4,6 @@
 
 function myFunction() {
   var pageToken, page;
-  //var ssNew = SpreadsheetApp.create("Group Alias");
-  //var sheet = ssNew.getSheets()[0];
   do {
     page = AdminDirectory.Groups.list({
       domain: 'dundermifflin.net', //Please change dundermifflin.net to your own desired domain name.
@@ -19,10 +17,6 @@ function myFunction() {
         var email = group.email;
         var alias = group.aliases;
         if (alias){
-        //var cell = sheet.getRange(1, 1);
-        //var newRow = cell.setValue(group.email);
-        //Logger.log(group.email);
-        //Logger.log(group.aliases);
          SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("A"+(i+1)).setValue(group.email);
          SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("B"+(i+1)).setValue(group.aliases);
         }
