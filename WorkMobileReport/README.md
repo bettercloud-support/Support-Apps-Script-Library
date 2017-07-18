@@ -1,6 +1,7 @@
 DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud standard support program or service. The sample scripts are provided AS IS without warranty of any kind. BetterCloud disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you.
 
 SUMMARY: This script lists the 'Work_Mobile' number for all users on your domain. http://screenshots.bettercloud.com/1K2d450Q2u2X
+
 https://developers.google.com/admin-sdk/directory/v1/reference/users/get
 
 Instructions:
