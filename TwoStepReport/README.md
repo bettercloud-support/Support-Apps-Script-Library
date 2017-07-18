@@ -17,3 +17,5 @@ Note that there is a delay imposed by google for the Reports API. https://suppor
 12) Accept permissions.
 13) The spreadsheet will then be populated with the generated report.
 http://screenshots.bettercloud.com/1D3i160Y0V3W
+
+NOTE: If you receive an error saying that "Data for dates later than X are unavailable", please increase the daysBack variable to report a date prior than what the error message shows. http://screenshots.bettercloud.com/3O2821472009
