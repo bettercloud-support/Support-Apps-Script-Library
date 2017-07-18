@@ -5,7 +5,7 @@ SUMMARY: This script generates a report of the Two Step Enrolled and Two Step En
 1) In Google Drive, open a new Google Sheet.
 2) Go to Tools > Script Editor in the spreadsheet.
 3) Copy the Apps Script attached and paste it in the Script Editor.
-4) In the script,Edit the variable 'daysBack' to the date you wish to report on. If set to 3 the report will get data from 3 days ago, if 4, 4 days ago and etc. Screenshot of the 'daysBack' variable: http://screenshots.bettercloud.com/000m2z1H3u2M
+4) In the script, edit the variable 'daysBack' to the date you wish to report on. If set to 3 the report will get data from 3 days ago, if 4, 4 days ago and etc. Screenshot of the 'daysBack' variable: http://screenshots.bettercloud.com/000m2z1H3u2M
 5) Note that there is a 1-3 day delay imposed by Google for the Reports API under Aggregate Reports > Accounts. https://support.google.com/a/answer/7061566?hl=en
 6) Go to Resources > Advanced Google Services in the Script Editor.
 7) Toggle 'Admin Reports API' to ON: http://screencast.com/t/GH1mtvqEz
