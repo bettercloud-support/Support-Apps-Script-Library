@@ -4,8 +4,6 @@
 
 function groupAliasReport() {
   var pageToken, page;
-  //var ssNew = SpreadsheetApp.create("Group Alias");
-  //var sheet = ssNew.getSheets()[0];
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var aliasSheet = ss.getSheetByName("Sheet1");
   var subdomainSheet = ss.getSheetByName("Sheet2");
@@ -27,8 +25,6 @@ function groupAliasReport() {
         var email = group.email;
         var alias = group.aliases;
         if (alias){
-        //var cell = sheet.getRange(1, 1);
-        //var newRow = cell.setValue(group.email);
         for (var k = 0; k < group.aliases.length; k++)
         {
         aliasSheet.getRange("A1").setValue(group.email);
