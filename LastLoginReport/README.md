@@ -7,7 +7,7 @@ Info on the fields used in the script can be seen here: https://developers.googl
 2) Go to Tools > Script Editor in the spreadsheet.
 3) Copy the Apps Script attached and paste it into the Script Editor.
 4) In the script, edit the variable 'daysBack' to the date you wish to report on. If set to 3 the report will get data from 3 days ago, if 4, 4 days ago and etc. 
-Note that there is a delay imposed by Google for the Reports API. https://support.google.com/a/answer/7061566?hl=en
+Note that there is a 1-3 day delay imposed by Google for the Reports API listed under 'Aggregate Reports > Accounts'. https://support.google.com/a/answer/7061566?hl=en
 5) Screenshot of the 'daysBack' variable: http://screenshots.bettercloud.com/000m2z1H3u2M
 6) Go to Resources > Advanced Google Services in the Script Editor.
 7) Toggle 'Admin Reports API' to ON: http://screencast.com/t/GH1mtvqEz
