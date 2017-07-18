@@ -28,7 +28,6 @@ Logger.log(result2);
 SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("B"+(k+1)).setValue(result2[0]); //Name of event sent in column B
 SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("C"+(k+1)).setValue(result2[1]); //Time of event sent in column C
 
-//Logger.log("Result: "+ result2)
 }
 }
 function sortMultiDimensional(a,b)
