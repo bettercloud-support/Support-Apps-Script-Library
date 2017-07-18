@@ -33,7 +33,6 @@ function listEvents() {
       }
       }
   } else {
-   // Logger.log('No events found.');
     h++;
   }
 }
