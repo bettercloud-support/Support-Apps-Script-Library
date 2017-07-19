@@ -15,7 +15,6 @@ function myFunction() {
   
   var deletedUsers = AdminDirectory.Users.list({"customer": "my_customer", "showDeleted": true});
   var resource = {"orgUnitPath":"/"}; //Orgunit for restoration. Please change to your own desired Org Unit. Use "/" for Root OU. Currently set to Root by default.
-  //Logger.log(deletedUsers.users[0].id);
   for (var i = 0; i < deletedUsers.users.length; i++){
     var deletedDate = deletedUsers.users[i].deletionTime;
     if (deletedDate > timestamp) //Will undelete users deleted up to 5 days ago by default. 
