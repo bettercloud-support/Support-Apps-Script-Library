@@ -5,7 +5,7 @@
 function generateUserUsageReport() {
 
   var d = new Date();
-  var daysBack = 90; 
+  var daysBack = 3; 
   d.setDate(d.getDate() - daysBack); 
   var timestamp = d.toISOString();
   var realDate = timestamp.slice(0, 10);
