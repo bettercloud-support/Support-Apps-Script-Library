@@ -14,10 +14,6 @@ function updateGroupAlias() {
     var userName = groups[i];
     Logger.log(userName);
     
-    //Logger.log(userName);
-    //var string = userName.toString();
-    //Logger.log(string);
-    
     try {
       
       AdminDirectory.Groups.Aliases.insert({"alias": userName + gAlias}, userName + "@sub.dundermifflin.net"); //takes a group on sub.dudnermifflin.net and adds an alias under dylan.dundermifflin.net 
