@@ -5,7 +5,7 @@
 function generateUserUsageReport() {
 
   var d = new Date();
-  var daysBack = 3; 
+  var daysBack = 3; //please adjust the number of days ago that this script is reporting on to your need. 3 is 3 days back 4 is 4 days back..etc
   d.setDate(d.getDate() - daysBack); 
   var timestamp = d.toISOString();
   var realDate = timestamp.slice(0, 10);
