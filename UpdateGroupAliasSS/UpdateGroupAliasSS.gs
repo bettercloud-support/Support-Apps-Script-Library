@@ -6,7 +6,7 @@ function updateGroupAlias() {
     
   var maxRows = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getLastRow();
   var groups = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("A1:A"+maxRows).getValues();
-  var gAlias = "@dylan.dundermifflin.net"; //enter desired alias domain 
+  var gAlias = "@dylan.dundermifflin.net"; //enter desired alias domain in place of this.
   
   
   for (var i=0;i<groups.length;i++)
