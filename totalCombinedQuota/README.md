@@ -18,4 +18,5 @@ Note that there is a 1-3 day delay imposed by Google for the Reports API (Aggreg
 13) The spreadsheet should then be populated with the generated report.
 http://screenshots.bettercloud.com/0S22182f2R03
 
+NOTE: If you receive an error saying that "Data for dates later than X are unavailable", please increase the daysBack variable to report a date prior than what the error message shows. http://screenshots.bettercloud.com/3O2821472009
 
