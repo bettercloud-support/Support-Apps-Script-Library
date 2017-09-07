@@ -3,7 +3,7 @@ DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud
 SUMMARY: This script populates a Google Sheet column with the FullName of the Group Members
 
 1) First, please go into BetterCloud to get the All Groups and their Members Report. In BetterCloud go to Reports > Explore > Canned Report and run the 'All Groups and their Members' Report. http://screenshots.bettercloud.com/3g3j3C0B0y0o
-2) In the spreadsheet that you exported from Drive Audit, add a new column all the way to the right (Column J). http://screenshots.bettercloud.com/2N003r2h023Q
+2) In the spreadsheet that you exported from Reports, add a new column all the way to the right (Column J). http://screenshots.bettercloud.com/2N003r2h023Q
 3) On the menu bar, select Tools > Script Editor. http://screenshots.bettercloud.com/0x2v410n032N
 4) Copy and paste the Apps Script into the Script Editor.
 5) On the menu bar, select Resources > Advanced Google Services.
