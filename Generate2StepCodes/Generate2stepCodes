@@ -1,26 +1,39 @@
 function backupCodes() {
-  
-  
+
+
   var maxRows = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getLastRow();
   var users = SpreadsheetApp.getActiveSpreadsheet().getRange("A2:A"+maxRows).getValues(); //Add user primary emails to the A column in the spreadsheet
   var genCodes = [];
   var listCodes = [];
   var codeArray = [];
   var pushArray = [];
-  
+
   for (var i = 0; i <users.length;i++) {
-    
+    try{
     genCodes = AdminDirectory.VerificationCodes.generate(users[i]);
-       
+
     listCodes = AdminDirectory.VerificationCodes.list(users[i]);
-      
-      codeArray[i] = listCodes.items[i].verificationCode;
+
+      codeArray[i] = listCodes.items[0].verificationCode;
+      codeArray[i+1] = listCodes.items[1].verificationCode;
+      codeArray[i+2] = listCodes.items[2].verificationCode;
+      }
+      catch (e) {
+      codeArray[i] = "Could not return code";
+      codeArray[i+1] = "Could not return code";
+      codeArray[i+2] = "Could not return code";
+      }
       
       pushArray.push([codeArray[i]]);
-      
+      pushArray.push([codeArray[i+1]]);
+      pushArray.push([codeArray[i+2]]);
+
       Logger.log(pushArray[i]);
-    
-     SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("B"+(i+2)).setValue(pushArray[i]);
- 
+      Logger.log(pushArray[i+1]);
+      Logger.log(pushArray[i+2]);
+
+    SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("B"+(i+2)).setValue(pushArray[i*3])
+    SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("C"+(i+2)).setValue(pushArray[i*3+1])
+    SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange("D"+(i+2)).setValue(pushArray[i*3+2])
   }
-    
+ }
