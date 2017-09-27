@@ -10,6 +10,6 @@ https://developers.google.com/admin-sdk/directory/v1/reference/verificationCodes
 4) Remove any existing code and paste the Apps Script attached into the Script Editor: http://screenshots.bettercloud.com/2w0f282A2X3k
 5) Go to Resources > Advanced Google Services and then enable the Admin Directory API. Enable the Admin SDK from the Google API console as well. http://screenshots.bettercloud.com/0r123C1z1608
 6) Save & Run the script.
-7) Columns B,C and D should populate with the new backup codes for each user.
+7) Columns B, C and D should populate with the new backup codes for each user.
 Gif: http://screenshots.bettercloud.com/0F0N0X462U0L
 
