@@ -9,16 +9,16 @@ function onOpen() {
   ui.createMenu('Run Report')
       .addItem('Retrieve Google Apps Licenses', 'listGALicenseAssignments')
       .addItem('Retrieve Vault Former Employee Licenses', 'listVFELicenseAssignments')
-      
+
   .addToUi();
 }
 
 
-function listGALicenseAssignments() { //This function retrieves all G Suite Licenses on your Domain.
+function listGALicenseAssignments() { //This function retrieves all G Suite Licenses on your DOmain.
   var customerId = 'dundermifflin.net'; //change dundermifflin.net to your own domain.
   var productId = 'Google-Apps';
-  var response = AdminLicenseManager.LicenseAssignments.listForProduct(productId,
-      customerId);
+  var pageToken = '5';
+  var response = AdminLicenseManager.LicenseAssignments.listForProduct(productId, customerId, {maxResults: 1000, pageToken: pageToken});
   var assignments = response.items;
   if (assignments && assignments.length > 0) {
     Logger.log('License assignments:');
@@ -28,8 +28,8 @@ function listGALicenseAssignments() { //This function retrieves all G Suite Lice
       var assignment = assignments[i];
       Logger.log('%s (%s)', assignment.userId, assignment.skuId);
       var ss = spreadsheet.getActiveSheet();
-      ss.getRange("A1").setValue(assignment.userId);
-      ss.getRange("B1").setValue(assignment.skuId);
+      ss.getRange("A1:B1").setValue([assignment.userId,assignment.skuId]);
+      //ss.getRange("B1").setValue(assignment.skuId);
       ss.insertRowBefore(1);
     }
   } else {
@@ -43,8 +43,7 @@ function listGALicenseAssignments() { //This function retrieves all G Suite Lice
 function listVFELicenseAssignments() { //this function retriveves all Google Vault licenses on your domain.
   var customerId = 'dundermifflin.net'; // please change dundermifflin.net to your own domain.
   var productId = 'Google-Vault';
-  var response = AdminLicenseManager.LicenseAssignments.listForProduct(productId,
-      customerId);
+  var response = AdminLicenseManager.LicenseAssignments.listForProduct(productId, customerId, {maxResults: 1000, pageToken: '5'});
   var assignments = response.items;
   if (assignments && assignments.length > 0) {
     Logger.log('License assignments:');
@@ -53,8 +52,8 @@ function listVFELicenseAssignments() { //this function retriveves all Google Vau
       var assignment = assignments[i];
       Logger.log('%s (%s)', assignment.userId, assignment.skuId);
       var ss = SpreadsheetApp.getActiveSpreadsheet();
-      ss.getRange("A1").setValue(assignment.userId);
-      ss.getRange("B1").setValue(assignment.skuId);
+      ss.getRange("A1:B1").setValue([assignment.userId,assignment.skuId]);
+      //ss.getRange("B1").setValue(assignment.skuId);
       ss.insertRowBefore(1);
     }
   } else {
@@ -64,4 +63,3 @@ function listVFELicenseAssignments() { //this function retriveves all Google Vau
     Logger.log('No license assignments found.');
   }
 }  
-
