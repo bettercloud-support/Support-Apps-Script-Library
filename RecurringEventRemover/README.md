@@ -4,7 +4,7 @@ SUMMARY: This script will delete a Google Calendar event from every user who's e
 
 1) First, to get the eventID for the specified event, follow the Google link and then click on the Event > More actions > Troubleshooting Info  https://www.google.com/calendar/render?gsessionid=OK&eventdeb=1
 2) Screenshot of step 1: http://screenshots.bettercloud.com/1j1Z2v0n2o2z
-3) Open a new Google Sheet in Drive and make a "userEmail" header in Cell A1, that's where you are going input the emails of users being removed from the event. (A2 and below)
+3) Open a new Google Sheet in Drive and make a "userEmail" header in Cell A1, that's where you are going input the emails of users being removed from the event. (A2 and below) http://screenshots.bettercloud.com/472h0k3U3K29
 4) Click on Tools > Script editor in the Google Sheet.
 5) In the Script Editor please copy and paste the code below. 
 6) Using the eventID you got earlier, input only the eventID that is before the underscore in the "ENTER_EVENTID_HERE": http://screenshots.bettercloud.com/2m1q1t2y422v
