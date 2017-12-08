@@ -1,3 +1,5 @@
+//DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud, Inc. (“BetterCloud”) support program or service and shall be deemed “Beta Services” under any Master Subscription Agreement or any other services agreement entered into with BetterCloud.
+
 function setPhoneInfo() {
   
   var maxRows = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getLastRow();
