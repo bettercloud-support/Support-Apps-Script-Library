@@ -28,7 +28,7 @@ function listGALicenseAssignments() { //This function retrieves all G Suite Lice
       var assignment = assignments[i];
       Logger.log('%s (%s)', assignment.userId, assignment.skuId);
       var ss = spreadsheet.getActiveSheet();
-      ss.getRange("A1:B1").setValue([assignment.userId,assignment.skuId]);
+      ss.getRange("A1:B1").setValues([assignment.userId,assignment.skuId]);
       //ss.getRange("B1").setValue(assignment.skuId);
       ss.insertRowBefore(1);
     }
@@ -52,7 +52,7 @@ function listVFELicenseAssignments() { //this function retriveves all Google Vau
       var assignment = assignments[i];
       Logger.log('%s (%s)', assignment.userId, assignment.skuId);
       var ss = SpreadsheetApp.getActiveSpreadsheet();
-      ss.getRange("A1:B1").setValue([assignment.userId,assignment.skuId]);
+      ss.getRange("A1:B1").setValues([assignment.userId,assignment.skuId]);
       //ss.getRange("B1").setValue(assignment.skuId);
       ss.insertRowBefore(1);
     }
