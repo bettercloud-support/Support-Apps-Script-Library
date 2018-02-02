@@ -12,7 +12,7 @@ Instructions:
 6. Click "Google Developers Console" in the yellow box
 7. Search for Admin SDK and enable as well. http://screenshots.bettercloud.com/0S1D3T0k3M2U
 8. Back in the Apps Script, press OK.
-9. Press the play button.
+9. Select the 'MainGetUserList' function. Press the play button. http://screenshots.bettercloud.com/140E3E1z3R2w
 10. Accept permissions.
 11. Script will finish running the yellow message disappears.
 12. The spreadsheet will be populated with the Report. 
