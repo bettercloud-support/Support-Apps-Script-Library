@@ -10,8 +10,8 @@ SUMMARY: This script retrieves all G Suite/VFE Licenses for a given domain and p
 6) Enable the Enterprise License Manager API.
 7) Click Google Developers Console in yellow box.
 8) Search for License Manager API and enable. http://screenshots.bettercloud.com/1Z0w0S29303a
-9) For existing G Suite Licenses, run the 'listGALicenseAssignments' function. http://screenshots.bettercloud.com/230q0l0n3R13
-10) For existing Google Vault Licenses, run the 'listVFELicenseAssignments' function.
+9) For existing G Suite Licenses, run the 'getGALicenses' function. http://screenshots.bettercloud.com/230q0l0n3R13
+10) For existing Google Vault Licenses, run the 'getVFELicenses' function.
 11) Accept permissions.
 12) The spreadsheet will then populate Columns A and B with the user emails and the license associated with them respectively.
 http://screenshots.bettercloud.com/0P310Q2C1B3h
