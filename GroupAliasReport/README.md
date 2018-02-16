@@ -6,7 +6,7 @@ Instructions:
 
 1. Create a new Google Sheet in Google Drive.
 2. Go to Tools > Script editor in the sheet.
-3. Paste the attached Apps Script into the Script Editor. 
+3. Remove any existing code and paste the Apps Script attached into the Script Editor.
 4. In the 'domain' field, plase enter your own domain in place of 'dundermifflin.net' http://screenshots.bettercloud.com/3F12100q0c0h
 5. Go to Resources > Advanced Google Services. Enable the Admin Directory API. http://screenshots.bettercloud.com/150M0X0o1N3u
 6. Click "Google Developers Console" in the yellow box
