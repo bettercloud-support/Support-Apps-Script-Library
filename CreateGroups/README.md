@@ -6,7 +6,7 @@ SUMMARY: This script creates Google Groups based on the Group name given in the 
 
 1) Please create a new Google Sheet in Drive.
 2) Enter the Group email addresses you’d like to create in "suffix" and the quantity in "num", and edit the domain to your chosen domain. http://screenshots.bettercloud.com/470X030b3q2G
-3) Go to Tools > Script Editor in the sheet.
+3) Remove any existing code and paste the Apps Script attached into the Script Editor.
 4) Paste the Apps Script provided into the Script Editor.
 5) Go to Resources > Advanced Google Services.
 6) Enable the Admin Directory API.
