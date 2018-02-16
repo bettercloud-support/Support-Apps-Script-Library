@@ -8,7 +8,7 @@ https://developers.google.com/admin-sdk/reports/v1/reference/usage-ref-appendix-
 1) Create a new Google Sheet in Google Drive.
 2) Add the User Emails that you wish to report on in Column A of the sheet. http://screenshots.bettercloud.com/1i2x2y1k1a1c
 3) Go to Tools > Script Editor.
-4) Paste the Apps Script attached into the Script Editor.
+4) Remove any existing code and paste the Apps Script attached into the Script Editor.
 5) Go to Resources > Advanced Google Services
 6) Enable the Admin Reports API and the Admin SDK in the API console. http://screenshots.bettercloud.com/0l1E1v072C1W
 7) In the Script Editor, edit the variable 'daysBack' to the date you wish to report on. If set to 3, the report will get data from 3 days ago, if 4, 4 days ago and etc. 
