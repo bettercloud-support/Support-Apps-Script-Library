@@ -10,7 +10,7 @@ Shown under phones[].type: http://screenshots.bettercloud.com/1H1W1Y1U021Z
 2) Add the User Emails in Cell A2 and below. Add the desired Phone info in Cell B2, C2 and D2 and below. (Current fields are set to telex, pager and workPager, but this can be changed in the script)
 http://screenshots.bettercloud.com/1O2i1O1X0N2y
 3) In the Menu bar, go to Tools > Script Editor. 
-4) Paste the Apps Script into the Script Editor.
+4) Remove any existing code and paste the Apps Script attached into the Script Editor.
 5) In the Script Editor, go to Resources > Advanced Google services and enable the Admin Directory API. 
 6) Enable the Admin SDK from the API Console as well. http://screenshots.bettercloud.com/1H2m0o2y2Y0I
 7) Run the script, Column E should populate with Success/Failure.
