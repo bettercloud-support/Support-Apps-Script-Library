@@ -4,7 +4,7 @@ SUMMARY: This script creates Google Calendar Resources via parameters given in a
 
 1) In Google Drive, open a new Google Sheet.
 2) Click on Tools > Script Editor in the Google Sheet's menu bar.
-3) Paste the attached Apps Script into the Script Editor.
+3) Remove any existing code and paste the Apps Script attached into the Script Editor.
 4) Click on Resources > Advanced Google Services.
 5) Enable the Admin Directory API, and then enable the Admin SDK from the Google API console. http://screenshots.bettercloud.com/3E460x2g0h3a
 6) Back in the spreadsheet, enter the name of the Resource, the ResourceID and then the type of the Resource in and below Cells A2, B2 and C2.
