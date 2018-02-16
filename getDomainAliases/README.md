@@ -2,7 +2,7 @@ DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud
 
 1. Create a new Google Sheet in Google Drive.
 2. Go to Tools > Script editor in the sheet.
-3. Paste the attached Apps Script into the Script Editor.
+3. Remove any existing code and paste the Apps Script attached into the Script Editor.
 4. Go to Resources > Advanced Google Services. Enable the Admin Directory API
 5. Click "Google API" in the yellow box.
 6. Search for Admin SDK and enable as well. http://screenshots.bettercloud.com/2Y2a3V2u3r13
