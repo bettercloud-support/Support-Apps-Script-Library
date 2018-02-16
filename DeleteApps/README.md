@@ -11,7 +11,7 @@ SUMMARY: This script revokes access to third party apps using G Suite data, base
 5) You can also get the clientID for certain apps through this Google API call. It will list all Apps installed and tied to the specified G Suite Account. https://developers.google.com/admin-sdk/directory/v1/reference/tokens/list
 Screenshot: http://screenshots.bettercloud.com/1g1s1z3o0X3S
 6) Once you have the user's email and clientID in the Google Sheet, go to Tools > Script Editor.
-7) Paste the Apps Script provided into the Script Editor.
+7) Remove any existing code and paste the Apps Script attached into the Script Editor.
 8) Go to Resources > Advanced Google Services.
 9) Enable the Admin Directory API.
 10) Click "Google Developers Console" in the yellow box.
