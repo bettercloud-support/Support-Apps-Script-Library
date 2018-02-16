@@ -8,7 +8,7 @@ SUMMARY: This script adds an owner to a Google Group. The Group owner and the Gr
 2) Enter the Group email addresses you’d like to like add the owner to in Column A, and the user's email address in Column B.
 http://screenshots.bettercloud.com/1W2v3O3R1s0b
 3) Go to Tools > Script Editor in the sheet.
-4) Paste the Apps Script provided into the Script Editor.
+4) Remove any existing code and paste the Apps Script attached into the Script Editor.
 5) Go to Resources > Advanced Google Services.
 6) Enable the Admin Directory API.
 7) Click "Google Developers Console" in the yellow box.
