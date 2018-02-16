@@ -4,7 +4,7 @@ SUMMARY: This script retrieves all G Suite/VFE Licenses for a given domain and p
 
 1) Create a new Google Sheet in Drive.
 2) In the menu bar, go to Tools > Script editor.
-3) Paste the Apps Script attached into the Script Editor.
+3) Remove any existing code and paste the Apps Script attached into the Script Editor.
 4) In the script code, please edit the "domain" string to your own domain. http://screenshots.bettercloud.com/3J3X151m3m2U
 5) Go to Resources > Advanced Google services.
 6) Enable the Enterprise License Manager API.
