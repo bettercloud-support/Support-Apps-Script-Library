@@ -1,10 +1,10 @@
 var domain = "mydomain" // place your Okta domain here (everything between https:// and .com)
 var token = "myOktaAPIToken" // place your Okta token here
 function setPrimary() {
-  var IDarray
+  var IDarray;
   IDarray = getIDs();
   for (i=0; i < IDarray.length; i++) {
-    try{ 
+    try { 
   var userID = IDarray[i]
   var payload = 
       {
