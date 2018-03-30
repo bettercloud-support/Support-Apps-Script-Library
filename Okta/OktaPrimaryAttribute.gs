@@ -50,4 +50,3 @@ function getIDs() {
   return resultArray;
 }
 
-Submitted 3/29/18, 3:31 PM
