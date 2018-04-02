@@ -10,7 +10,7 @@ function setPrimary() {
       {
             "profile":
             {  
-              "primary" : "false"
+              "primary" : "true"
             }
           };
   
