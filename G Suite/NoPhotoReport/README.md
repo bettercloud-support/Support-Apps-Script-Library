@@ -9,3 +9,4 @@ DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud
 7. Search for and Enable "Admin SDK:" http://screenshots.bettercloud.com/2L0J2P2i1J11
 8. Back in the Apps Script, click OK
 9. Click "Run > "nophoto_report" and accept permissions when prompted.
+10. Report will look this when complete: http://screenshots.bettercloud.com/0n161K240G06
