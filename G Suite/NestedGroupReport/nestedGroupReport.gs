@@ -10,14 +10,16 @@ function MainGetUserList(){
 }
 
 function addToList(groupEmailAdd, groupNameAdd, parentName){
-        var currentPage = AdminDirectory.Members.list(groupEmailAdd,
+        
+  do { 
+     page = AdminDirectory.Members.list(groupEmailAdd,
         {
             domainName: 'dundermifflin.net', // Change this to your domain 
             pageToken: pageToken,
             maxResults: 10000
         });
         var groups = [];
-        var members = currentPage.members
+        var members = page.members
         if (members) {
             for (var i = 0; i < members.length; i++) {
               var member = members[i];
@@ -46,6 +48,8 @@ function addToList(groupEmailAdd, groupNameAdd, parentName){
               }
             }
             Logger.log(groups);
+            pageToken = page.nextPageToken;
+        } while (pageToken);
             while (groups.length > 0) {
               var currentGroup = groups.pop();
               addToList(currentGroup, AdminDirectory.Groups.get(currentGroup).name, groupNameAdd);
