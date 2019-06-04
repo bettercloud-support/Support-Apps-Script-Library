@@ -37,7 +37,7 @@ function getLicenseAssignments() {
   var headers = ['Email', 'G Suite License'];
     sheet.appendRow(headers);
   var values = [];
-  var productId = 'Google-Vault;
+  var productId = 'Google-Vault';
   var customerId = 'dundermifflin.net'; //please change dundermifflin.net to your own domain
   var assignments, pageToken;
   do {
