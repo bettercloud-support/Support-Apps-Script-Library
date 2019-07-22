@@ -11,4 +11,4 @@ SUMMARY: This script generates a report of the Two Step Enrolled and Two Step En
 7) Search for and Enable "Admin SDK:" http://screenshots.bettercloud.com/2L0J2P2i1J11
 8) Back in the Apps Script, click OK 9/ Click "Run > "twosv_report" and accept permissions when prompted The sheet will be populated with a report of your users' 2sv status
 
-NOTE: If you receive an error saying that "Data for dates later than X are unavailable", please increase the daysBack variable to report a date prior than what the error message shows. http://screenshots.bettercloud.com/3O2821472009
+
