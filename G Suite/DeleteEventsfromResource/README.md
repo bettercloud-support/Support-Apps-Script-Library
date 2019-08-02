@@ -6,8 +6,8 @@ SUMMARY: This script will show the last Google Calendar event on a Calendar Reso
 2) Go to Tools > Script Editor.
 3) Paste the attached Apps Script into the Script Editor.
 4) Go to Resources > Advanced Google Services and enable the Google Calendar API. http://screenshots.bettercloud.com/bc60b7bf8da2
-5) Add the Resource email to the script in row 2 of the script. 
+5) Add the Resource email to the script in the resource variable in row 2 of the script. http://screenshots.bettercloud.com/56ba71ee8c35
 6) You can get the Resource email through BetterCloud by going to Google Apps > Calendar > Audit and then the 'Resource' tab. The email will show under the 'Details' tab when you click on the Resource. http://screenshots.bettercloud.com/3K3X3r3V1Y1q
 You can also get the Resource email from Google Calendar under Calendar Settings: http://screenshots.bettercloud.com/2N1k3Q1B2g3P
-7) In row 4, change the desired timeframe of the events you wish to delete. Currently the script is set to 3 months. 
+7) In the actualDate variable inrow 4, change the desired timeframe of the events you wish to delete. Currently the script is set to 3 months. http://screenshots.bettercloud.com/e1d3d6c5383f
 8) Select the deleteEventsResource' function and press the Play button to run the script. Accept the Google API permissions.
