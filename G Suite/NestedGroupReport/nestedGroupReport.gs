@@ -16,7 +16,7 @@ function addToList(groupEmailAdd, groupNameAdd, parentName){
         {
             domainName: 'dundermifflin.net', // Change this to your domain 
             pageToken: pageToken,
-            maxResults: 10000
+            maxResults: 200
         });
         var groups = [];
         var members = page.members
