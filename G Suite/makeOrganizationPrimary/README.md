@@ -4,10 +4,10 @@ DISCLAIMER: Sample scripts in this guide are not supported under any BetterCloud
 
 SUMMARY: This script adds an owner to a Google Group. The Group owner and the Group are specified by their respective email addresses in a Google Sheet.
 
-Please create a new Google Sheet in Drive.
-Enter the Group email addresses you’d like to like add the owner to in Column A, and the user's email address in Column B. http://screenshots.bettercloud.com/1W2v3O3R1s0b
-Go to Tools > Script Editor in the sheet.
-Remove any existing code and paste the Apps Script attached into the Script Editor.
-Go to Services and enable the 'Admin Directory API' https://screenshots.bettercloud.com/9ZudQZpl
-Click the run button and accept permission when prompted.
-The script will finish running when the execution log says completed. https://screenshots.bettercloud.com/YEuZOxvY
+1. Please create a new Google Sheet in Drive.
+2. Enter the Group email addresses you’d like to like add the owner to in Column A, and the user's email address in Column B. http://screenshots.bettercloud.com/1W2v3O3R1s0b
+3. Go to Tools > Script Editor in the sheet.
+4. Remove any existing code and paste the Apps Script attached into the Script Editor.
+5. Go to Services and enable the 'Admin Directory API' https://screenshots.bettercloud.com/9ZudQZpl
+6. Click the run button and accept permission when prompted.
+7. The script will finish running when the execution log says completed. https://screenshots.bettercloud.com/YEuZOxvY
